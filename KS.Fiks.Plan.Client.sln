@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KS.Fiks.Plan.Client", "KS.Fiks.Plan.Client\KS.Fiks.Plan.Client.csproj", "{9C91A818-E230-403C-871C-B9BD413A7B12}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KS.Fiks.Plan.Client.Tests", "KS.Fiks.Plan.Client.Tests\KS.Fiks.Plan.Client.Tests.csproj", "{E83D3C4D-E984-49DB-822B-8747CBC62551}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{9C91A818-E230-403C-871C-B9BD413A7B12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C91A818-E230-403C-871C-B9BD413A7B12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C91A818-E230-403C-871C-B9BD413A7B12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E83D3C4D-E984-49DB-822B-8747CBC62551}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E83D3C4D-E984-49DB-822B-8747CBC62551}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E83D3C4D-E984-49DB-822B-8747CBC62551}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E83D3C4D-E984-49DB-822B-8747CBC62551}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
