@@ -43,8 +43,6 @@
     </ItemGroup>
     
     <ItemGroup>
-      <Folder Include="Schema\" />
-      <Folder Include="Samples\" />
       <Folder Include="Schema" />
     </ItemGroup>
 
