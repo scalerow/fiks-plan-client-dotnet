@@ -13,7 +13,7 @@ namespace KS.Fiks.Plan.Client.Models
         public const string FinnPlanbehandlinger = "no.ks.fiks.gi.plan.innsyn.finnplanbehandlinger.v2";
         public const string HentArealplan = "no.ks.fiks.gi.plan.innsyn.hentarealplan.v2";
         public const string HentGjeldendePlanbestemmelser = "no.ks.fiks.gi.plan.innsyn.hentgjeldendeplanbestemmelser.v2";
-        public const string HentAktoerer = "no.ks.fiks.gi.plan.innsyn.hentaktorer.v2";
+        public const string HentAktoerer = "no.ks.fiks.gi.plan.innsyn.hentaktoerer.v2";
         public const string HentRelatertePlaner = "no.ks.fiks.gi.plan.innsyn.hentrelaterteplaner.v2";
         public const string HentKodeliste = "no.ks.fiks.gi.plan.innsyn.hentkodeliste.v2";
         public const string FinnPlandokumenter = "no.ks.fiks.gi.plan.innsyn.finnplandokumenter.v2";

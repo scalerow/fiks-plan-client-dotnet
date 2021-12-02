@@ -7,17 +7,52 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <None Remove="Schema\CoreValidationDialectMetaSchema\applicator" />
+      <None Remove="Schema\CoreValidationDialectMetaSchema\content" />
+      <None Remove="Schema\CoreValidationDialectMetaSchema\core" />
+      <None Remove="Schema\CoreValidationDialectMetaSchema\format-annotation" />
+      <None Remove="Schema\CoreValidationDialectMetaSchema\meta-data" />
+      <None Remove="Schema\CoreValidationDialectMetaSchema\schema" />
+      <None Remove="Schema\CoreValidationDialectMetaSchema\unevaluated" />
+      <None Remove="Schema\CoreValidationDialectMetaSchema\validation" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="Schema\CoreValidationDialectMetaSchema\applicator">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\CoreValidationDialectMetaSchema\content">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\CoreValidationDialectMetaSchema\core">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\CoreValidationDialectMetaSchema\format-annotation">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\CoreValidationDialectMetaSchema\meta-data">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\CoreValidationDialectMetaSchema\schema">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\CoreValidationDialectMetaSchema\unevaluated">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\CoreValidationDialectMetaSchema\validation">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
+    <ItemGroup>
       <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.0.0" />
       <PackageReference Include="Newtonsoft.Json.Schema" Version="3.0.14" />
       <PackageReference Include="NUnit" Version="3.13.2" />
+      <PackageReference Include="NUnit3TestAdapter" Version="4.1.0" />
     </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\KS.Fiks.Plan.Client\KS.Fiks.Plan.Client.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="Schema" />
     </ItemGroup>
 
 </Project>
