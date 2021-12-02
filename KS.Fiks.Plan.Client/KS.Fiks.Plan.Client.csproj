@@ -25,6 +25,176 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <None Remove="Schema\no.ks.fiks.gi.plan.innsyn.aktoerer.v2.schema.json" />
+      <None Remove="Schema\no.ks.fiks.gi.plan.innsyn.bbox.v2.schema.json" />
+      <None Remove="Schema\no.ks.fiks.gi.plan.innsyn.dispensasjoner.v2.schema.json" />
+      <None Remove="Schema\no.ks.fiks.gi.plan.innsyn.finndispensasjoner.v2.schema.json" />
+      <None Remove="Schema\no.ks.fiks.gi.plan.innsyn.finnplanbehandlinger.v2.schema.json" />
+      <None Remove="Schema\no.ks.fiks.gi.plan.innsyn.finnplandokumenter.v2.schema.json" />
+      <None Remove="Schema\no.ks.fiks.gi.plan.innsyn.finnplaner.v2.schema.json" />
+      <None Remove="Schema\no.ks.fiks.gi.plan.innsyn.finnplanerformatrikkelenhet.v2.schema.json" />
+      <None Remove="Schema\no.ks.fiks.gi.plan.innsyn.finnplanerforomraade.v2.schema.json" />
+      <None Remove="Schema\no.ks.fiks.gi.plan.innsyn.gjeldendeplanbestemmelser.v2.schema.json" />
+      <None Remove="Schema\no.ks.fiks.gi.plan.innsyn.hentaktoerer.v2.schema.json" />
+      <None Remove="Schema\no.ks.fiks.gi.plan.innsyn.hentarealplan.v2.schema.json" />
+      <None Remove="Schema\no.ks.fiks.gi.plan.innsyn.hentbboxforplan.v2.schema.json" />
+      <None Remove="Schema\no.ks.fiks.gi.plan.innsyn.hentgjeldendeplanbestemmelser.v2.schema.json" />
+      <None Remove="Schema\no.ks.fiks.gi.plan.innsyn.hentkodeliste.v2.schema.json" />
+      <None Remove="Schema\no.ks.fiks.gi.plan.innsyn.hentplanfil.v2.schema.json" />
+      <None Remove="Schema\no.ks.fiks.gi.plan.innsyn.hentplanomraader.v2.schema.json" />
+      <None Remove="Schema\no.ks.fiks.gi.plan.innsyn.hentrelaterteplaner.v2.schema.json" />
+      <None Remove="Schema\no.ks.fiks.gi.plan.innsyn.kodeliste.v2.schema.json" />
+      <None Remove="Schema\no.ks.fiks.gi.plan.innsyn.midlertidigforbud.v2.schema.json" />
+      <None Remove="Schema\no.ks.fiks.gi.plan.innsyn.planbehandlinger.v2.schema.json" />
+      <None Remove="Schema\no.ks.fiks.gi.plan.innsyn.plandokumenter.v2.schema.json" />
+      <None Remove="Schema\no.ks.fiks.gi.plan.innsyn.planerformatrikkelenhet.v2.schema.json" />
+      <None Remove="Schema\no.ks.fiks.gi.plan.innsyn.planerforomraade.v2.schema.json" />
+      <None Remove="Schema\no.ks.fiks.gi.plan.innsyn.planerforsoek.v2.schema.json" />
+      <None Remove="Schema\no.ks.fiks.gi.plan.innsyn.planomraader.v2.schema.json" />
+      <None Remove="Schema\no.ks.fiks.gi.plan.innsyn.relaterteplaner.v2.schema.json" />
+      <None Remove="Schema\no.ks.fiks.gi.plan.innsyn.resultatarealplan.v2.schema.json" />
+      <None Remove="Schema\no.ks.fiks.gi.plan.innsyn.sjekkmidlertidigforbud.v2.schema.json" />
+      <None Remove="Schema\no.ks.fiks.gi.plan.oppdatering.meldingomplanident.v2.schema.json" />
+      <None Remove="Schema\no.ks.fiks.gi.plan.oppdatering.oppdaterarealplan.v2.schema.json" />
+      <None Remove="Schema\no.ks.fiks.gi.plan.oppdatering.oppdaterdispensasjon.v2.schema.json" />
+      <None Remove="Schema\no.ks.fiks.gi.plan.oppdatering.opprettarealplan.v2.schema.json" />
+      <None Remove="Schema\no.ks.fiks.gi.plan.oppdatering.planforslagavvist.v2.schema.json" />
+      <None Remove="Schema\no.ks.fiks.gi.plan.oppdatering.planleggingigangsatt.v2.schema.json" />
+      <None Remove="Schema\no.ks.fiks.gi.plan.oppdatering.planvedtakikraftsatt.v2.schema.json" />
+      <None Remove="Schema\no.ks.fiks.gi.plan.oppdatering.planvedtakmedutsattrettsvirkning.v2.schema.json" />
+      <None Remove="Schema\no.ks.fiks.gi.plan.oppdatering.registrerdispensasjonplan.v2.schema.json" />
+      <None Remove="Schema\no.ks.fiks.gi.plan.oppdatering.registrermidlertidigforbudmottiltak.v2.schema.json" />
+      <None Remove="Schema\no.ks.fiks.gi.plan.oppdatering.registrerplanavgrensning.v2.schema.json" />
+    </ItemGroup>
+
+
+    <ItemGroup>
+      <Content Include="Schema\no.ks.fiks.gi.plan.innsyn.aktoerer.v2.schema.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\no.ks.fiks.gi.plan.innsyn.bbox.v2.schema.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\no.ks.fiks.gi.plan.innsyn.dispensasjoner.v2.schema.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\no.ks.fiks.gi.plan.innsyn.finndispensasjoner.v2.schema.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\no.ks.fiks.gi.plan.innsyn.finnplanbehandlinger.v2.schema.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\no.ks.fiks.gi.plan.innsyn.finnplandokumenter.v2.schema.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\no.ks.fiks.gi.plan.innsyn.finnplaner.v2.schema.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\no.ks.fiks.gi.plan.innsyn.finnplanerformatrikkelenhet.v2.schema.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\no.ks.fiks.gi.plan.innsyn.finnplanerforomraade.v2.schema.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\no.ks.fiks.gi.plan.innsyn.gjeldendeplanbestemmelser.v2.schema.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\no.ks.fiks.gi.plan.innsyn.hentaktoerer.v2.schema.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\no.ks.fiks.gi.plan.innsyn.hentarealplan.v2.schema.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\no.ks.fiks.gi.plan.innsyn.hentbboxforplan.v2.schema.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\no.ks.fiks.gi.plan.innsyn.hentgjeldendeplanbestemmelser.v2.schema.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\no.ks.fiks.gi.plan.innsyn.hentkodeliste.v2.schema.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\no.ks.fiks.gi.plan.innsyn.hentplanfil.v2.schema.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\no.ks.fiks.gi.plan.innsyn.hentplanomraader.v2.schema.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\no.ks.fiks.gi.plan.innsyn.hentrelaterteplaner.v2.schema.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\no.ks.fiks.gi.plan.innsyn.kodeliste.v2.schema.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\no.ks.fiks.gi.plan.innsyn.midlertidigforbud.v2.schema.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\no.ks.fiks.gi.plan.innsyn.planbehandlinger.v2.schema.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\no.ks.fiks.gi.plan.innsyn.plandokumenter.v2.schema.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\no.ks.fiks.gi.plan.innsyn.planerformatrikkelenhet.v2.schema.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\no.ks.fiks.gi.plan.innsyn.planerforomraade.v2.schema.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\no.ks.fiks.gi.plan.innsyn.planerforsoek.v2.schema.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\no.ks.fiks.gi.plan.innsyn.planomraader.v2.schema.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\no.ks.fiks.gi.plan.innsyn.relaterteplaner.v2.schema.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\no.ks.fiks.gi.plan.innsyn.resultatarealplan.v2.schema.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\no.ks.fiks.gi.plan.innsyn.sjekkmidlertidigforbud.v2.schema.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\no.ks.fiks.gi.plan.oppdatering.meldingomplanident.v2.schema.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\no.ks.fiks.gi.plan.oppdatering.oppdaterarealplan.v2.schema.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\no.ks.fiks.gi.plan.oppdatering.oppdaterdispensasjon.v2.schema.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\no.ks.fiks.gi.plan.oppdatering.opprettarealplan.v2.schema.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\no.ks.fiks.gi.plan.oppdatering.planforslagavvist.v2.schema.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\no.ks.fiks.gi.plan.oppdatering.planleggingigangsatt.v2.schema.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\no.ks.fiks.gi.plan.oppdatering.planvedtakikraftsatt.v2.schema.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\no.ks.fiks.gi.plan.oppdatering.planvedtakmedutsattrettsvirkning.v2.schema.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\no.ks.fiks.gi.plan.oppdatering.registrerdispensasjonplan.v2.schema.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\no.ks.fiks.gi.plan.oppdatering.registrermidlertidigforbudmottiltak.v2.schema.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\no.ks.fiks.gi.plan.oppdatering.registrerplanavgrensning.v2.schema.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Schema\no.ks.fiks.gi.plan.oppdatering.registrerplanbehandling.v2.schema.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
+    <ItemGroup>
         <None Include="fiks-io-strongly-named-key.snk">
             <Link>fiks-io-strongly-named-key.snk</Link>
         </None>
@@ -41,9 +211,10 @@
             <PackagePath>/</PackagePath>
         </None>
     </ItemGroup>
-    
+
     <ItemGroup>
-      <Folder Include="Schema" />
+      <Resource Include="Schema\no.ks.fiks.gi.plan.oppdatering.registrermidlertidigforbudmottiltak.v2.schema.json" />
+      <Resource Include="Schema\no.ks.fiks.gi.plan.oppdatering.registrerplanavgrensning.v2.schema.json" />
     </ItemGroup>
 
 </Project>

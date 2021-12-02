@@ -32,7 +32,7 @@ namespace KS.Fiks.Plan.Client.Models
         public const string ResultatHentKodeliste = "no.ks.fiks.gi.plan.innsyn.kodeliste.v2";
         public const string ResultatFinnPlandokumenter = "no.ks.fiks.gi.plan.innsyn.plandokumenter.v2";
         public const string ResultatHentPlanfil = "no.ks.fiks.gi.plan.innsyn.planfil.v2";
-        public const string ResultatFinnPlanerForOmraade = "no.ks.fiks.gi.plan.innsyn.planerforområde.v2";
+        public const string ResultatFinnPlanerForOmraade = "no.ks.fiks.gi.plan.innsyn.planerforomraade.v2";
         public const string ResultatHentBboxForPlan = "no.ks.fiks.gi.plan.innsyn.bbox.v2";
         public const string ResultatHentPlanomraader = "no.ks.fiks.gi.plan.innsyn.planomraader.v2";
 
