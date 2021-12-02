@@ -16,7 +16,6 @@ namespace KS.Fiks.IO.Politisk.Behandling.Client.Tests
         }
 
         [Test]
-        [Ignore("Ikke klart enda")]
         public void Validate_all_schemas_against_core_validation_dialect_meta_schema()
         {
             var jsonSchemaFilepaths = Directory.GetFiles(@"./Schema");

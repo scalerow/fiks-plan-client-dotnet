@@ -12,7 +12,6 @@ namespace KS.Fiks.Plan.Client.Tests
         }
         
         [Test]
-        [Ignore("Alt er ikke klart enda")]
         [TestCase(FiksPlanMeldingtypeV2.FinnDispensasjoner)]
         [TestCase(FiksPlanMeldingtypeV2.HentAktoerer)]
         public void Gi_plan_schema_har_filnavn_tilsvarende_meldingstype_navn(string meldingstype)
