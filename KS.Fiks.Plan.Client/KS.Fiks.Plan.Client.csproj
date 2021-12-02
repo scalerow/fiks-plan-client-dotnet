@@ -20,7 +20,6 @@
         <IncludeSymbols>true</IncludeSymbols>
         <SymbolPackageFormat>snupkg</SymbolPackageFormat>
         <VersionPrefix>0.0.1</VersionPrefix>
-        <LangVersion>9</LangVersion>
         <RootNamespace>KS.Fiks.Plan.Client</RootNamespace>
     </PropertyGroup>
 

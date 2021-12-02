@@ -4,7 +4,7 @@ using System.Text;
 
 namespace KS.Fiks.Plan.Client.Models
 {
-    public class PlanMeldingTypeV1
+    public class FiksPlanMeldingtypeV2
     {
         // Forespørsler-innsyn
         public const string FinnPlanerForMatrikkelenhet = "no.ks.fiks.gi.plan.innsyn.finnplanerformatrikkelenhet.v2";
