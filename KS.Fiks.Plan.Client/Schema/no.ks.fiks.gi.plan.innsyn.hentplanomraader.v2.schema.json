@@ -1,6 +1,6 @@
 ﻿{
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://no.ks.fiks.gi.plan.innsyn/HentPlanområder.v2.schema.json",
+    "$id": "https://no.ks.fiks.gi.plan.innsyn/HentPlanomraader.v2.schema.json",
     "title": "HentPlanområder",
     "definitions": {},
     "type": "object",
