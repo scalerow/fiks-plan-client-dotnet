@@ -75,7 +75,6 @@
       <None Remove="Schema\no.ks.fiks.gi.plan.oppdatering.planvedtakikraftsatt.v2.schema.json" />
       <None Remove="Schema\no.ks.fiks.gi.plan.oppdatering.planvedtakmedutsattrettsvirkning.v2.schema.json" />
       <None Remove="Schema\no.ks.fiks.gi.plan.oppdatering.registrermidlertidigforbudmottiltak.v2.schema.json" />
-      <None Remove="Schema\no.ks.fiks.gi.plan.oppdatering.registrerplanavgrensning.v2.schema.json" />
       <None Remove="Schema\no.ks.fiks.gi.plan.v2.aktoerer.hent.schema.json" />
       <None Remove="Schema\no.ks.fiks.gi.plan.v2.aktoerer.resultat.schema.json" />
       <None Remove="Schema\no.ks.fiks.gi.plan.v2.arealplan.hent.schema.json" />
@@ -92,6 +91,7 @@
       <None Remove="Schema\no.ks.fiks.gi.plan.v2.kodeliste.hent.schema.json" />
       <None Remove="Schema\no.ks.fiks.gi.plan.v2.kodeliste.resultat.schema.json" />
       <None Remove="Schema\no.ks.fiks.gi.plan.v2.meldingomplanident.resultat.schema.json" />
+      <None Remove="Schema\no.ks.fiks.gi.plan.v2.planavgrensning.registrer.schema.json" />
       <None Remove="Schema\no.ks.fiks.gi.plan.v2.planbehandlinger.finn.schema.json" />
       <None Remove="Schema\no.ks.fiks.gi.plan.v2.plandokumenter.finn.schema.json" />
       <None Remove="Schema\no.ks.fiks.gi.plan.v2.plandokumenter.resultat.schema.json" />
@@ -353,7 +353,7 @@
       <Content Include="Schema\no.ks.fiks.gi.plan.oppdatering.registrermidlertidigforbudmottiltak.v2.schema.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="Schema\no.ks.fiks.gi.plan.oppdatering.registrerplanavgrensning.v2.schema.json">
+      <Content Include="Schema\no.ks.fiks.gi.plan.v2.planavgrensning.registrer.schema.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
       <Content Include="Schema\no.ks.fiks.gi.plan.v2.planbehandling.registrer.schema.json">
@@ -385,7 +385,7 @@
 
     <ItemGroup>
       <Resource Include="Schema\no.ks.fiks.gi.plan.oppdatering.registrermidlertidigforbudmottiltak.v2.schema.json" />
-      <Resource Include="Schema\no.ks.fiks.gi.plan.oppdatering.registrerplanavgrensning.v2.schema.json" />
+      <Resource Include="Schema\no.ks.fiks.gi.plan.v2.planavgrensning.registrer.schema.json" />
     </ItemGroup>
 
 </Project>
