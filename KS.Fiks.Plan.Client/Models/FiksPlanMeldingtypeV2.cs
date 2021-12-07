@@ -7,48 +7,48 @@ namespace KS.Fiks.Plan.Client.Models
     public class FiksPlanMeldingtypeV2
     {
         // Forespørsler-innsyn
-        public const string FinnPlanerForMatrikkelenhet = "no.ks.fiks.gi.plan.innsyn.finnplanerformatrikkelenhet.v2";
-        public const string FinnPlaner = "no.ks.fiks.gi.plan.innsyn.finnplaner.v2";
-        public const string FinnDispensasjoner = "no.ks.fiks.gi.plan.innsyn.finndispensasjoner.v2";
-        public const string FinnPlanbehandlinger = "no.ks.fiks.gi.plan.innsyn.finnplanbehandlinger.v2";
-        public const string HentArealplan = "no.ks.fiks.gi.plan.innsyn.hentarealplan.v2";
-        public const string HentGjeldendePlanbestemmelser = "no.ks.fiks.gi.plan.innsyn.hentgjeldendeplanbestemmelser.v2";
-        public const string HentAktoerer = "no.ks.fiks.gi.plan.innsyn.hentaktoerer.v2";
-        public const string HentRelatertePlaner = "no.ks.fiks.gi.plan.innsyn.hentrelaterteplaner.v2";
-        public const string HentKodeliste = "no.ks.fiks.gi.plan.innsyn.hentkodeliste.v2";
-        public const string FinnPlandokumenter = "no.ks.fiks.gi.plan.innsyn.finnplandokumenter.v2";
-        public const string HentPlanfil = "no.ks.fiks.gi.plan.innsyn.hentplanfil.v2";
-        public const string FinnPlanerForOmraade = "no.ks.fiks.gi.plan.innsyn.finnplanerforomraade.v2";
-        public const string HentBboxForPlan = "no.ks.fiks.gi.plan.innsyn.hentbboxforplan.v2";
-        public const string HentPlanomraader = "no.ks.fiks.gi.plan.innsyn.hentplanomraader.v2";
+        public const string FinnPlanerForMatrikkelenhet = "no.ks.fiks.gi.plan.v2.planerformatrikkelenhet.finn";
+        public const string FinnPlaner = "no.ks.fiks.gi.plan.v2.planer.finn";
+        public const string FinnDispensasjoner = "no.ks.fiks.gi.plan.v2.dispensasjoner.finn";
+        public const string FinnPlanbehandlinger = "no.ks.fiks.gi.plan.v2.planbehandlinger.finn";
+        public const string HentArealplan = "no.ks.fiks.gi.plan.v2.arealplan.hent";
+        public const string HentGjeldendePlanbestemmelser = "no.ks.fiks.gi.plan.v2.gjeldendeplanbestemmelser.hent";
+        public const string HentAktoerer = "no.ks.fiks.gi.plan.v2.aktoerer.hent";
+        public const string HentRelatertePlaner = "no.ks.fiks.gi.plan.v2.relaterteplaner.hent";
+        public const string HentKodeliste = "no.ks.fiks.gi.plan.v2.kodeliste.hent";
+        public const string FinnPlandokumenter = "no.ks.fiks.gi.plan.v2.plandokumenter.finn";
+        public const string HentPlanfil = "no.ks.fiks.gi.plan.v2.planfil.hent";
+        public const string FinnPlanerForOmraade = "no.ks.fiks.gi.plan.v2.planerforomraade.finn";
+        public const string HentBboxForPlan = "no.ks.fiks.gi.plan.v2.bboxforplan.hent";
+        public const string HentPlanomraader = "no.ks.fiks.gi.plan.v2.planomraader.hent";
 
         // Resultat på forespørsler-innsyn
-        public const string ResultatFinnPlanerForMatrikkelenhet = "no.ks.fiks.gi.plan.innsyn.planerformatrikkelenhet.v2";
-        public const string ResultatFinnPlaner = "no.ks.fiks.gi.plan.innsyn.planerforsoek.v2";
-        public const string ResultatFinnDispensasjoner = "no.ks.fiks.gi.plan.innsyn.dispensasjoner.v2";
-        public const string ResultatHentGjeldendePlanbestemmelser = "no.ks.fiks.gi.plan.innsyn.gjeldendeplanbestemmelser.v2";
-        public const string ResultatHentAktoerer = "no.ks.fiks.gi.plan.innsyn.aktoerer.v2";
-        public const string ResultatHentRelatertePlaner = "no.ks.fiks.gi.plan.innsyn.relaterteplaner.v2";
-        public const string ResultatHentKodeliste = "no.ks.fiks.gi.plan.innsyn.kodeliste.v2";
-        public const string ResultatFinnPlandokumenter = "no.ks.fiks.gi.plan.innsyn.plandokumenter.v2";
-        public const string ResultatHentPlanfil = "no.ks.fiks.gi.plan.innsyn.planfil.v2";
-        public const string ResultatFinnPlanerForOmraade = "no.ks.fiks.gi.plan.innsyn.planerforomraade.v2";
-        public const string ResultatHentBboxForPlan = "no.ks.fiks.gi.plan.innsyn.bbox.v2";
-        public const string ResultatHentPlanomraader = "no.ks.fiks.gi.plan.innsyn.planomraader.v2";
+        public const string ResultatFinnPlanerForMatrikkelenhet = "no.ks.fiks.gi.plan.v2.planerformatrikkelenhet.resultat";
+        public const string ResultatFinnPlaner = "no.ks.fiks.gi.plan.v2.planer.resultat";
+        public const string ResultatFinnDispensasjoner = "no.ks.fiks.gi.plan.v2.dispensasjoner.resultat";
+        public const string ResultatHentGjeldendePlanbestemmelser = "no.ks.fiks.gi.plan.v2.gjeldendeplanbestemmelser.resultat";
+        public const string ResultatHentAktoerer = "no.ks.fiks.gi.plan.v2.aktoerer.resultat";
+        public const string ResultatHentRelatertePlaner = "no.ks.fiks.gi.plan.v2.relaterteplaner.resultat";
+        public const string ResultatHentKodeliste = "no.ks.fiks.gi.plan.v2.kodeliste.resultat";
+        public const string ResultatFinnPlandokumenter = "no.ks.fiks.gi.plan.v2.plandokumenter.resultat";
+        public const string ResultatHentPlanfil = "no.ks.fiks.gi.plan.v2.planfil.resultat";
+        public const string ResultatFinnPlanerForOmraade = "no.ks.fiks.gi.plan.v2.planerforomraade.resultat";
+        public const string ResultatHentBboxForPlan = "no.ks.fiks.gi.plan.v2.bbox.resultat";
+        public const string ResultatHentPlanomraader = "no.ks.fiks.gi.plan.v2.planomraader.resultat";
 
         // Forespørsler-oppdatering
-        public const string OpprettArealplan = "no.ks.fiks.gi.plan.oppdatering.opprettarealplan.v2";
-        public const string RegistrertPlanavgrensning = "no.ks.fiks.gi.plan.oppdatering.registrerplanavgrensning.v2";
-        public const string RegistrerPlanbehandling = "no.ks.fiks.gi.plan.oppdatering.registrerplanbehandling.v2";
-        public const string OppdaterArealplan = "no.ks.fiks.gi.plan.oppdatering.oppdaterarealplan.v2";
+        public const string OpprettArealplan = "no.ks.fiks.gi.plan.v2.arealplan.opprett";
+        public const string RegistrertPlanavgrensning = "no.ks.fiks.gi.plan.v2.planavgrensning.registrer";
+        public const string RegistrerPlanbehandling = "no.ks.fiks.gi.plan.v2.planbehandling.registrer";
+        public const string OppdaterArealplan = "no.ks.fiks.gi.plan.v2.arealplan.oppdater";
 
         // Resultat på forespørsler-oppdatering
-        public const string ResultatOpprettArealplan = "no.ks.fiks.gi.plan.oppdatering.meldingomplanident.v2";
-        public const string ResultatMottat = "no.ks.fiks.gi.plan.oppdatering.mottatt.v2";
+        public const string ResultatOpprettArealplan = "no.ks.fiks.gi.plan.v2.meldingomplanident.resultat";
+        public const string ResultatMottat = "no.ks.fiks.gi.plan.v2.mottatt";
 
         // Ebyggesak 
-        public const string RegistrerDispensasjonFraPlan = "no.ks.fiks.gi.plan.oppdatering.registrerdispensasjonplan.v2";
-        public const string OppdaterDispensasjon = "no.ks.fiks.gi.plan.oppdatering.oppdaterdispensasjon.v2";
+        public const string RegistrerDispensasjonFraPlan = "no.ks.fiks.gi.plan.v2.dispensasjonplan.registrer";
+        public const string OppdaterDispensasjon = "no.ks.fiks.gi.plan.v2.dispensasjon.oppdater";
 
         private static Dictionary<string, string> Skjemanavn;
 
