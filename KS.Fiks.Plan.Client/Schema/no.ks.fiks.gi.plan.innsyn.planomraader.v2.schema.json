@@ -1,16 +1,16 @@
 ﻿{
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "https://no.ks.fiks.gi.plan.innsyn/Planomraader.v2.schema.json",
-    "title": "Planområder",
+    "title": "Planomraader",
     "definitions": {},
     "type": "object",
     "properties": {
-        "planområde": {
+        "planomraade": {
             "type": "array",
             "items": {
                 "type": "object",
                 "properties": {
-                    "område": {
+                    "omraade": {
                         "type": "object",
                         "properties": {
                             "koordinatsystem": {
@@ -28,14 +28,14 @@
                             "ytreAvgrensning"
                         ]
                     },
-                    "vertikalnivå": {
+                    "vertikalnivaa": {
                         "type": "string",
                         "enum": [
                             "Under grunnen",
                             "På grunnen/vannoverflate",
                             "Over grunnen (bru)",
-                            "På bunnen (vann/sjø)",
-                            "I vannsøylen"
+                            "På bunnen (vann/sjoe)",
+                            "I vannsoeylen"
                         ]
                     },
                     "vertikallag": {
@@ -44,7 +44,7 @@
                             "lag": {
                                 "type": "string"
                             },
-                            "referansehøyde": {
+                            "referansehoeyde": {
                                 "type": "object",
                                 "properties": {
 

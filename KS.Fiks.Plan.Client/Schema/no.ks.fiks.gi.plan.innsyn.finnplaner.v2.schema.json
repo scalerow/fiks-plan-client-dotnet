@@ -6,7 +6,7 @@
     },
     "type": "object",
     "properties": {
-        "søkskriterie": {
+        "soekskriterie": {
             "type": "array",
             "items": {
                 "type": "object",
@@ -55,6 +55,6 @@
         }
     },
     "required": [
-        "søkskriterie"
+        "soekskriterie"
     ]
 }

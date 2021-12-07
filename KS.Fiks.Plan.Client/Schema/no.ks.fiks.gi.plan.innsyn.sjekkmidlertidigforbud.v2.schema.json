@@ -91,12 +91,12 @@
   },
   "type": "object",
   "properties": {
-    "område": {
+    "omraade": {
       "description": "GM_Surface",
       "type": "object"
     }
   },
   "required": [
-    "område"
+    "omraade"
   ]
 }

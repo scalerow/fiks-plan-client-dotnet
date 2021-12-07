@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "https://no.ks.fiks.gi.plan.innsyn/PlanerForSoek.v2.schema.json",
-    "title": "PlanerForSøk",
+    "title": "PlanerForSoek",
     "definitions": {
         "plan": {
             "type": "object",

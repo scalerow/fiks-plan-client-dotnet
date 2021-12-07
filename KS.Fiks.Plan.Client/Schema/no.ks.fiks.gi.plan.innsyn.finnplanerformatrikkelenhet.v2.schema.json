@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://no.ks.fiks.gi.plan.innsyn/FinnPlanerForMatrikkelenhet.v2.schema.json",
   "title": "FinnPlanerForMatrikkelenhet",
-  "description": "Finner alle planer som berører en eiendom. ",
+  "description": "Finner alle planer som beroerer en eiendom. ",
   "definitions": {
   },
   "type": "object",
@@ -13,7 +13,7 @@
         "kommunenummer": {
           "type": "string"
         },
-        "gårdsnummer": {
+        "gaardsnummer": {
           "type": "integer"
         },
         "bruksnummer": {
@@ -28,7 +28,7 @@
       },
       "required": [
         "kommunenummer",
-        "gårdsnummer",
+        "gaardsnummer",
         "bruksnummer"
       ]
     }

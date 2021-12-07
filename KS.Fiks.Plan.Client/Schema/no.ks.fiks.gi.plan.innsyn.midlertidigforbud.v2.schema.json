@@ -92,7 +92,7 @@
   "type": "object",
   "properties": {
     "midlertidigforbud": {
-      "description": "PblMidlForbudMotTiltakOmråde",
+      "description": "PblMidlForbudMotTiltakOmraade",
       "type": "object"
     }
   }
