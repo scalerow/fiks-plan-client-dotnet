@@ -1,7 +1,7 @@
 ﻿{
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "https://no.ks.fiks.gi.plan.innsyn/PlanerForOmraade.v2.schema.json",
-    "title": "PlanerForOmråde",
+    "title": "PlanerForOmraade",
     "definitions": {
         "Arealplan": {
             "type": "object",

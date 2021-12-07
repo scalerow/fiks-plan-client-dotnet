@@ -12,7 +12,7 @@
         "nedreVenstre": {
             "type": "string"
         },
-        "øvreHøyre": {
+        "oevreHoeyre": {
             "type": "string"
         }
     }

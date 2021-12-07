@@ -29,10 +29,10 @@
     },
     "type": "object",
     "properties": {
-        "forbudOmråde": {
+        "forbudOmraade": {
             "type": "object",
             "properties": {
-                "område": {
+                "omraade": {
                     "type": "array",
                     "allOf": [
                         { "$ref": "#/definitions/linearRing" }
@@ -41,7 +41,7 @@
                 "saksnummer": {
                     "type": "object",
                     "properties": {
-                        "saksår": {
+                        "saksaar": {
                             "type": "integer"
                         },
                         "sakssekvensnummer": {
@@ -49,11 +49,11 @@
                         }
                     },
                     "required": [
-                        "saksår",
+                        "saksaar",
                         "sakssekvensnummer"
                     ]
                 },
-                "avgjørelsesdato": {
+                "avgjoerelsesdato": {
                     "type": "string",
                     "format": "date"
                 },
@@ -61,7 +61,7 @@
                     "type": "string",
                     "enum": [
                         "midlertidigForbudMotTiltak",
-                        "midlertidigForbudNødvendigSamtykke",
+                        "midlertidigForbudNoedvendigSamtykke",
                         "statligByggeDeleforbud"
                     ]
                 },
@@ -69,19 +69,19 @@
                     "type": "string",
                     "format": "date"
                 },
-                "områdenavn": {
+                "omraadenavn": {
                     "type": "string"
                 }
             },
             "required": [
-                "område",
-                "avgjørelsesdato",
+                "omraade",
+                "avgjoerelsesdato",
                 "pblTiltakForbudType",
                 "gyldigTilDato"
             ]
         }
     },
     "required": [
-        "forbudOmråde"
+        "forbudOmraade"
     ]
 }

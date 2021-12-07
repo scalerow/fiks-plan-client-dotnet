@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "https://no.ks.fiks.gi.plan.innsyn/FinnPlanerForOmraade.v2.schema.json",
-    "title": "FinnPlanerForOmråde",
+    "title": "FinnPlanerForOmraade",
     "definitions": {
         "linearRing": {
             "description": "An array of four positions where the first equals the last",
@@ -28,7 +28,7 @@
     },
     "type": "object",
     "properties": {
-        "område": {
+        "omraade": {
             "type": "array",
             "allOf": [
                 { "$ref": "#/definitions/linearRing" }
@@ -36,6 +36,6 @@
         }
     },
     "required": [
-        "område"
+        "omraade"
     ]
 }
