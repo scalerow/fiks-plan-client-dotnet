@@ -24,48 +24,48 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <None Remove="Samples\BesluttetOffentligEttersynN1\payload.json" />
-      <None Remove="Samples\BestillingAvOppstartsmøteN1\payload.json" />
-      <None Remove="Samples\FinnDispensasjonerN1\payload.json" />
-      <None Remove="Samples\FinnPlanbehandlingerN1\payload.json" />
-      <None Remove="Samples\FinnPlandokumenterN1\payload.json" />
-      <None Remove="Samples\FinnPlanerForMatrikkelenhetN1\payload.json" />
-      <None Remove="Samples\FinnPlanerForOmrådeN1\payload.json" />
-      <None Remove="Samples\FinnPlanerN1\payload.json" />
-      <None Remove="Samples\HentAktørerN1\payload.json" />
-      <None Remove="Samples\HentArealplanN1\payload.json" />
-      <None Remove="Samples\HentBboxN1\payload.json" />
-      <None Remove="Samples\HentGjeldendePlanbestemmelserN1\payload.json" />
-      <None Remove="Samples\HentKodelisteN1\payload.json" />
-      <None Remove="Samples\HentPlanfilN1\payload.json" />
-      <None Remove="Samples\HentPlanområderN1\payload.json" />
-      <None Remove="Samples\HentRelatertePlanerN1\payload.json" />
-      <None Remove="Samples\HøringsfristUtgåttN1\payload.json" />
-      <None Remove="Samples\KunngjøringAvOffentligEttersynN1\payload.json" />
-      <None Remove="Samples\KunngjøringAvOffentligEttersynN1\reguleringsplan_brev_hoering_offentlig_ettersyn_bokm_mal.doc" />
-      <None Remove="Samples\KunngjøringAvPlanvedtakN1\payload.json" />
-      <None Remove="Samples\KunngjøringAvPlanvedtakN1\reguleringsplan_brev_melding_endelig_vedtak_med_informasjon_klagerett_bokm_mal.doc" />
-      <None Remove="Samples\KunngjøringOgVarslingAvPlanoppstartN1\payload.json" />
-      <None Remove="Samples\MottattInnsigelseN1\payload.json" />
-      <None Remove="Samples\MottattKlageN1\payload.json" />
-      <None Remove="Samples\OppdaterArealplanN1\payload.json" />
-      <None Remove="Samples\OppdaterDispensasjonN1\payload.json" />
-      <None Remove="Samples\PlanEndeligVedtattN1\nasjonal_mal_reguleringsplanbestemmelserbokmaal.docx" />
-      <None Remove="Samples\PlanEndeligVedtattN1\payload.json" />
-      <None Remove="Samples\PlanforslagAvvistN1\payload.json" />
-      <None Remove="Samples\PlanforslagTattTilBehandlingN1\nasjonal_mal_reguleringsplanbestemmelserbokmaal.docx" />
-      <None Remove="Samples\PlanforslagTattTilBehandlingN1\payload.json" />
-      <None Remove="Samples\PlaninitiativStoppetN1\payload.json" />
-      <None Remove="Samples\PlanleggingIgangsattN1\payload.json" />
-      <None Remove="Samples\PlanvedtakIkraftsattN1\payload.json" />
-      <None Remove="Samples\PlanvedtakMedUtsattRettsvirkningN1\payload.json" />
-      <None Remove="Samples\PlanvedtakN1\payload.json" />
-      <None Remove="Samples\PlanVedtattMedInnsigelseN1\payload.json" />
-      <None Remove="Samples\RegistrerDispensasjonFraPlanN1\payload.json" />
-      <None Remove="Samples\RegistrerMidlertidigForbudMotTiltakN1\payload.json" />
-      <None Remove="Samples\RegistrerPlanavgrensingN1\payload.json" />
-      <None Remove="Samples\SjekkMidlertidigForbudN1\payload.json" />
-      <None Remove="Samples\TildelePlanidentN1\payload.json" />
+      <None Remove="Samples\BesluttetOffentligEttersyn\payload.json" />
+      <None Remove="Samples\BestillingAvOppstartsmøte\payload.json" />
+      <None Remove="Samples\FinnDispensasjoner\payload.json" />
+      <None Remove="Samples\FinnPlanbehandlinger\payload.json" />
+      <None Remove="Samples\FinnPlandokumenter\payload.json" />
+      <None Remove="Samples\FinnPlanerForMatrikkelenhet\payload.json" />
+      <None Remove="Samples\FinnPlanerForOmråde\payload.json" />
+      <None Remove="Samples\FinnPlaner\payload.json" />
+      <None Remove="Samples\HentAktører\payload.json" />
+      <None Remove="Samples\HentArealplan\payload.json" />
+      <None Remove="Samples\HentBbox\payload.json" />
+      <None Remove="Samples\HentGjeldendePlanbestemmelser\payload.json" />
+      <None Remove="Samples\HentKodeliste\payload.json" />
+      <None Remove="Samples\HentPlanfil\payload.json" />
+      <None Remove="Samples\HentPlanområder\payload.json" />
+      <None Remove="Samples\HentRelatertePlaner\payload.json" />
+      <None Remove="Samples\HøringsfristUtgått\payload.json" />
+      <None Remove="Samples\KunngjøringAvOffentligEttersyn\payload.json" />
+      <None Remove="Samples\KunngjøringAvOffentligEttersyn\reguleringsplan_brev_hoering_offentlig_ettersyn_bokm_mal.doc" />
+      <None Remove="Samples\KunngjøringAvPlanvedtak\payload.json" />
+      <None Remove="Samples\KunngjøringAvPlanvedtak\reguleringsplan_brev_melding_endelig_vedtak_med_informasjon_klagerett_bokm_mal.doc" />
+      <None Remove="Samples\KunngjøringOgVarslingAvPlanoppstart\payload.json" />
+      <None Remove="Samples\MottattInnsigelse\payload.json" />
+      <None Remove="Samples\MottattKlage\payload.json" />
+      <None Remove="Samples\OppdaterArealplan\payload.json" />
+      <None Remove="Samples\OppdaterDispensasjon\payload.json" />
+      <None Remove="Samples\PlanEndeligVedtatt\nasjonal_mal_reguleringsplanbestemmelserbokmaal.docx" />
+      <None Remove="Samples\PlanEndeligVedtatt\payload.json" />
+      <None Remove="Samples\PlanforslagAvvist\payload.json" />
+      <None Remove="Samples\PlanforslagTattTilBehandling\nasjonal_mal_reguleringsplanbestemmelserbokmaal.docx" />
+      <None Remove="Samples\PlanforslagTattTilBehandling\payload.json" />
+      <None Remove="Samples\PlaninitiativStoppet\payload.json" />
+      <None Remove="Samples\PlanleggingIgangsatt\payload.json" />
+      <None Remove="Samples\PlanvedtakIkraftsatt\payload.json" />
+      <None Remove="Samples\PlanvedtakMedUtsattRettsvirkning\payload.json" />
+      <None Remove="Samples\Planvedtak\payload.json" />
+      <None Remove="Samples\PlanVedtattMedInnsigelse\payload.json" />
+      <None Remove="Samples\RegistrerDispensasjonFraPlan\payload.json" />
+      <None Remove="Samples\RegistrerMidlertidigForbudMotTiltak\payload.json" />
+      <None Remove="Samples\RegistrerPlanavgrensing\payload.json" />
+      <None Remove="Samples\SjekkMidlertidigForbud\payload.json" />
+      <None Remove="Samples\TildelePlanident\payload.json" />
       <None Remove="Schema\no.ks.fiks.gi.plan.innsyn.midlertidigforbud.v2.schema.json" />
       <None Remove="Schema\no.ks.fiks.gi.plan.innsyn.planbehandlinger.v2.schema.json" />
       <None Remove="Schema\no.ks.fiks.gi.plan.innsyn.resultatarealplan.v2.schema.json" />
@@ -110,130 +110,130 @@
 
 
     <ItemGroup>
-      <Content Include="Samples\BesluttetOffentligEttersynN1\payload.json">
+      <Content Include="Samples\BesluttetOffentligEttersyn\payload.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="Samples\BestillingAvOppstartsmøteN1\payload.json">
+      <Content Include="Samples\BestillingAvOppstartsmøte\payload.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="Samples\FinnDispensasjonerN1\payload.json">
+      <Content Include="Samples\FinnDispensasjoner\payload.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="Samples\FinnPlanbehandlingerN1\payload.json">
+      <Content Include="Samples\FinnPlanbehandlinger\payload.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="Samples\FinnPlandokumenterN1\payload.json">
+      <Content Include="Samples\FinnPlandokumenter\payload.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="Samples\FinnPlanerForMatrikkelenhetN1\payload.json">
+      <Content Include="Samples\FinnPlanerForMatrikkelenhet\payload.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="Samples\FinnPlanerForOmrådeN1\payload.json">
+      <Content Include="Samples\FinnPlanerForOmråde\payload.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="Samples\FinnPlanerN1\payload.json">
+      <Content Include="Samples\FinnPlaner\payload.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="Samples\HentAktørerN1\payload.json">
+      <Content Include="Samples\HentAktører\payload.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="Samples\HentArealplanN1\payload.json">
+      <Content Include="Samples\HentArealplan\payload.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="Samples\HentBboxN1\payload.json">
+      <Content Include="Samples\HentBbox\payload.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="Samples\HentGjeldendePlanbestemmelserN1\payload.json">
+      <Content Include="Samples\HentGjeldendePlanbestemmelser\payload.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="Samples\HentKodelisteN1\payload.json">
+      <Content Include="Samples\HentKodeliste\payload.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="Samples\HentPlanfilN1\payload.json">
+      <Content Include="Samples\HentPlanfil\payload.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="Samples\HentPlanområderN1\payload.json">
+      <Content Include="Samples\HentPlanområder\payload.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="Samples\HentRelatertePlanerN1\payload.json">
+      <Content Include="Samples\HentRelatertePlaner\payload.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="Samples\HøringsfristUtgåttN1\payload.json">
+      <Content Include="Samples\HøringsfristUtgått\payload.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="Samples\KunngjøringAvOffentligEttersynN1\payload.json">
+      <Content Include="Samples\KunngjøringAvOffentligEttersyn\payload.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="Samples\KunngjøringAvOffentligEttersynN1\reguleringsplan_brev_hoering_offentlig_ettersyn_bokm_mal.doc">
+      <Content Include="Samples\KunngjøringAvOffentligEttersyn\reguleringsplan_brev_hoering_offentlig_ettersyn_bokm_mal.doc">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="Samples\KunngjøringAvPlanvedtakN1\payload.json">
+      <Content Include="Samples\KunngjøringAvPlanvedtak\payload.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="Samples\KunngjøringAvPlanvedtakN1\reguleringsplan_brev_melding_endelig_vedtak_med_informasjon_klagerett_bokm_mal.doc">
+      <Content Include="Samples\KunngjøringAvPlanvedtak\reguleringsplan_brev_melding_endelig_vedtak_med_informasjon_klagerett_bokm_mal.doc">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="Samples\KunngjøringOgVarslingAvPlanoppstartN1\payload.json">
+      <Content Include="Samples\KunngjøringOgVarslingAvPlanoppstart\payload.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="Samples\MottattInnsigelseN1\payload.json">
+      <Content Include="Samples\MottattInnsigelse\payload.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="Samples\MottattKlageN1\payload.json">
+      <Content Include="Samples\MottattKlage\payload.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="Samples\OppdaterArealplanN1\payload.json">
+      <Content Include="Samples\OppdaterArealplan\payload.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="Samples\OppdaterDispensasjonN1\payload.json">
+      <Content Include="Samples\OppdaterDispensasjon\payload.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="Samples\PlanEndeligVedtattN1\nasjonal_mal_reguleringsplanbestemmelserbokmaal.docx">
+      <Content Include="Samples\PlanEndeligVedtatt\nasjonal_mal_reguleringsplanbestemmelserbokmaal.docx">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="Samples\PlanEndeligVedtattN1\payload.json">
+      <Content Include="Samples\PlanEndeligVedtatt\payload.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="Samples\PlanforslagAvvistN1\payload.json">
+      <Content Include="Samples\PlanforslagAvvist\payload.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="Samples\PlanforslagTattTilBehandlingN1\nasjonal_mal_reguleringsplanbestemmelserbokmaal.docx">
+      <Content Include="Samples\PlanforslagTattTilBehandling\nasjonal_mal_reguleringsplanbestemmelserbokmaal.docx">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="Samples\PlanforslagTattTilBehandlingN1\payload.json">
+      <Content Include="Samples\PlanforslagTattTilBehandling\payload.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="Samples\PlaninitiativStoppetN1\payload.json">
+      <Content Include="Samples\PlaninitiativStoppet\payload.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="Samples\PlanleggingIgangsattN1\payload.json">
+      <Content Include="Samples\PlanleggingIgangsatt\payload.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="Samples\PlanvedtakIkraftsattN1\payload.json">
+      <Content Include="Samples\PlanvedtakIkraftsatt\payload.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="Samples\PlanvedtakMedUtsattRettsvirkningN1\payload.json">
+      <Content Include="Samples\PlanvedtakMedUtsattRettsvirkning\payload.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="Samples\PlanvedtakN1\payload.json">
+      <Content Include="Samples\Planvedtak\payload.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="Samples\PlanVedtattMedInnsigelseN1\payload.json">
+      <Content Include="Samples\PlanVedtattMedInnsigelse\payload.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="Samples\RegistrerDispensasjonFraPlanN1\payload.json">
+      <Content Include="Samples\RegistrerDispensasjonFraPlan\payload.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="Samples\RegistrerMidlertidigForbudMotTiltakN1\payload.json">
+      <Content Include="Samples\RegistrerMidlertidigForbudMotTiltak\payload.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="Samples\RegistrerPlanavgrensingN1\payload.json">
+      <Content Include="Samples\RegistrerPlanavgrensing\payload.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="Samples\SjekkMidlertidigForbudN1\payload.json">
+      <Content Include="Samples\SjekkMidlertidigForbud\payload.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="Samples\TildelePlanidentN1\payload.json">
+      <Content Include="Samples\TildelePlanident\payload.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
       <Content Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.aktoerer.resultat.schema.json">
