@@ -1,78 +1,100 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://no.ks.fiks.gi.plan.oppdatering/PlanvedtakMedUtsattRettsvirkning.v2.schema.json",
-  "title": "PlanvedtakMedUtsattRettsvirkning",
-  "description": "Kommunestyret har vedtatt planen med utsatt iverksetting pga. klage eller forventet klage.",
-  "definitions": {
-    "Planbehandling": {
-      "type": "object",
-      "properties": {
-        "posisjon": {
-          "description": "Punkt ",
-          "type": "object"
-        },
-        "dato": {
-          "type": "string",
-          "format": "date"
-        },
-        "saksnummer": {
-          "type": "object",
-          "properties": {
-            "saksaar": {
-              "type": "integer"
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://no.ks.fiks.gi.plan.oppdatering/PlanvedtakMedUtsattRettsvirkning.v2.schema.json",
+    "title": "PlanvedtakMedUtsattRettsvirkning",
+    "description": "Kommunestyret har vedtatt planen med utsatt iverksetting pga. klage eller forventet klage.",
+    "definitions": {
+        "Planbehandling": {
+            "type": "object",
+            "properties": {
+                "posisjon": {
+                    "description": "Punkt",
+                    "type": "object",
+                    "properties": {
+                        "type": {
+                            "type": "string",
+                            "enum": [
+                                "Point"
+                            ]
+                        },
+                        "coordinates": {
+                            "type": "array",
+                            "minItems": 2,
+                            "items": {
+                                "type": "number"
+                            }
+                        },
+                        "bbox": {
+                            "type": "array",
+                            "minItems": 4,
+                            "items": {
+                                "type": "number"
+                            }
+                        }
+                    }
+                },
+                "dato": {
+                    "type": "string",
+                    "format": "date"
+                },
+                "saksnummer": {
+                    "type": "object",
+                    "properties": {
+                        "saksaar": {
+                            "type": "integer"
+                        },
+                        "sakssekvensnummer": {
+                            "type": "integer"
+                        }
+                    },
+                    "required": [
+                        "saksaar",
+                        "sakssekvensnummer"
+                    ]
+                },
+                "planbehandlingtype": {
+                    "type": "object",
+                    "properties": {
+                        "kodeverdi": {
+                            "type": "string"
+                        },
+                        "kodebeskrivelse": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "navn": {
+                    "type": "string"
+                }
             },
-            "sakssekvensnummer": {
-              "type": "integer"
-            }
-          },
-          "required": [
-            "saksaar",
-            "sakssekvensnummer"
-          ]
+            "required": [
+                "dato",
+                "saksnummer",
+                "planbehandlingtype",
+                "navn"
+            ]
         },
-        "planbehandlingtype": {
-          "type": "object",
-          "properties": {
-            "kodeverdi": {
-              "type": "string"
+        "Plandokument": {
+            "type": "object",
+            "properties": {
+                "tittel": {
+                    "type": "string"
+                },
+                "dokumenttype": {
+                    "type": "string"
+                },
+                "referanseDokumentfil": {
+                    "type": "string"
+                }
             },
-            "kodebeskrivelse": {
-              "type": "string"
-            }
-          }
-        },
-        "navn": {
-          "type": "string"
+            "required": [
+                "tittel",
+                "dokumenttype",
+                "referanseDokumentfil"
+            ]
         }
-      },
-      "required": [
-        "dato",
-        "saksnummer",
-        "planbehandlingtype",
-        "navn"
-      ]
     },
-    "Plandokument": {
-      "type": "object",
-      "properties": {
-        "tittel": {
-          "type": "string"
-        },
-        "dokumenttype": {
-          "type": "string"
-        },
-        "referanseDokumentfil": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "tittel",
-        "dokumenttype",
-        "referanseDokumentfil"
-      ]
-    }
-  },
-  "type": "object",
+    "type": "object",
     "properties": {
         "nasjonalArealplanId": {
             "type": "object",
@@ -161,13 +183,13 @@
             }
         }
     },
-  "required": [
-    "nasjonalArealplanId",
-    "planstatus",
-    "planbehandlingtype",
-    "saksnummer",
-    "vedtakEndeligPlanDato",
-    "ubehandletKlage",
-    "ubehandletInnsigelse"
-  ]
+    "required": [
+        "nasjonalArealplanId",
+        "planstatus",
+        "planbehandlingtype",
+        "saksnummer",
+        "vedtakEndeligPlanDato",
+        "ubehandletKlage",
+        "ubehandletInnsigelse"
+    ]
 }
