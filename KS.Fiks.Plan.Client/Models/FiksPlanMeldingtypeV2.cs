@@ -45,7 +45,7 @@ namespace KS.Fiks.Plan.Client.Models
 
         // Resultat på forespørsler-oppdatering
         public const string ResultatOpprettArealplan = "no.ks.fiks.gi.plan.v2.oppdatering.meldingomplanident.resultat";
-        public const string ResultatMottat = "no.ks.fiks.gi.plan.v2.mottatt";
+        public const string ResultatMottat = "no.ks.fiks.gi.plan.v2.oppdatering.mottatt";
 
         // Ebyggesak 
         public const string RegistrerDispensasjonFraPlan = "no.ks.fiks.gi.plan.v2.oppdatering.dispensasjonplan.registrer";
