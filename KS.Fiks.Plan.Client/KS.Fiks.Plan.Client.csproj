@@ -67,7 +67,6 @@
 		<None Remove="Samples\SjekkMidlertidigForbud\payload.json" />
 		<None Remove="Samples\TildelePlanident\payload.json" />
 		<None Remove="Schema\no.ks.fiks.gi.plan.innsyn.midlertidigforbud.v2.schema.json" />
-		<None Remove="Schema\no.ks.fiks.gi.plan.innsyn.planbehandlinger.v2.schema.json" />
 		<None Remove="Schema\no.ks.fiks.gi.plan.innsyn.resultatarealplan.v2.schema.json" />
 		<None Remove="Schema\no.ks.fiks.gi.plan.innsyn.sjekkmidlertidigforbud.v2.schema.json" />
 		<None Remove="Schema\no.ks.fiks.gi.plan.oppdatering.planforslagavvist.v2.schema.json" />
@@ -87,6 +86,7 @@
 		<None Remove="Schema\no.ks.fiks.gi.plan.v2.innsyn.kodeliste.hent.schema.json" />
 		<None Remove="Schema\no.ks.fiks.gi.plan.v2.innsyn.kodeliste.resultat.schema.json" />
 		<None Remove="Schema\no.ks.fiks.gi.plan.v2.innsyn.planbehandlinger.finn.schema.json" />
+		<None Remove="Schema\no.ks.fiks.gi.plan.v2.innsyn.planbehandlinger.resultat.schema.json" />
 		<None Remove="Schema\no.ks.fiks.gi.plan.v2.innsyn.plandokumenter.finn.schema.json" />
 		<None Remove="Schema\no.ks.fiks.gi.plan.v2.innsyn.plandokumenter.resultat.schema.json" />
 		<None Remove="Schema\no.ks.fiks.gi.plan.v2.innsyn.planer.finn.schema.json" />
@@ -420,7 +420,7 @@
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
 		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.innsyn.planbehandlinger.v2.schema.json">
+		<Content Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.planbehandlinger.resultat.schema.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
