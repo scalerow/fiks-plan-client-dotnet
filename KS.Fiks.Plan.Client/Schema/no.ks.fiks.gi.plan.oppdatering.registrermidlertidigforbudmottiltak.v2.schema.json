@@ -1,43 +1,43 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "https://no.ks.fiks.gi.plan.oppdatering/RegistrerMidlertidigForbudMotTiltak.v2.schema.json",
-    "title": "RegistrerMidlertidigForbudMotTiltak",
     "description": "Forvaltning av «midlertidig forbud mot tiltak» i planregister ”Midlertidig forbud mot tiltak” er ikke en plantype, og dermed heller ikke arealplandata, men gyldighetsområdet skal likevel inngå i kommunalt planregister, og forvaltes som et eget datalag. Dette fordi slike midlertidige forbud mot tiltak utgjør en kraftig restriksjon i videre bruk av arealer inntil det er gjennomført ny planprosess. ",
-    "definitions": {
-        "linearRing": {
-            "description": "An array of four positions where the first equals the last",
-            "allOf": [
-                { "$ref": "#/definitions/positionArray" },
-                { "minItems": 4 }
-            ]
-        },
-        "positionArray": {
-            "description": "An array of positions",
-            "type": "array",
-            "items": { "$ref": "#/definitions/position" }
-        },
-        "position": {
-            "description": "A single position",
-            "type": "array",
-            "minItems": 2,
-            "items": [
-                { "type": "number" },
-                { "type": "number" }
-            ],
-            "additionalItems": false
-        }
-    },
+    "title": "RegistrerMidlertidigForbudMotTiltak",
+    "definitions": {},
     "type": "object",
     "properties": {
-        "forbudOmraade": {
+        "forbudOmråde": {
+            "description": "PblMidlForbudMotTiltakOmråde",
             "type": "object",
             "properties": {
                 "omraade": {
-                    "type": "array",
-                    "allOf": [
-                        { "$ref": "#/definitions/linearRing" }
-                    ]
+                    "properties": {
+                        "type": {
+                            "type": "string",
+                            "enum": [
+                                "Polygon"
+                            ]
+                        },
+                        "coordinates": {
+                            "type": "array",
+                            "items": {
+                                "type": "array",
+                                "minItems": 4,
+                                "items": {
+                                    "type": "array",
+                                    "minItems": 2,
+                                    "items": {
+                                        "type": "number"
+                                    }
+                                }
+                            }
+                        }
+                    }
                 },
+                "required": [
+                    "type",
+                    "coordinates"
+                ],
                 "saksnummer": {
                     "type": "object",
                     "properties": {
@@ -53,17 +53,17 @@
                         "sakssekvensnummer"
                     ]
                 },
-                "avgjoerelsesdato": {
+                "avgjoerelsedato": {
                     "type": "string",
                     "format": "date"
                 },
-                "pblTiltakForbudType": {
-                    "type": "string",
-                    "enum": [
-                        "midlertidigForbudMotTiltak",
-                        "midlertidigForbudNoedvendigSamtykke",
-                        "statligByggeDeleforbud"
-                    ]
+                "pblTiltakForbudtype": {
+                    "kodeverdi": {
+                        "type": "string"
+                    },
+                    "kodebeskrivelse": {
+                        "type": "string"
+                    }
                 },
                 "gyldigTilDato": {
                     "type": "string",
@@ -72,16 +72,13 @@
                 "omraadenavn": {
                     "type": "string"
                 }
-            },
-            "required": [
-                "omraade",
-                "avgjoerelsesdato",
-                "pblTiltakForbudType",
-                "gyldigTilDato"
-            ]
+            }
         }
     },
     "required": [
-        "forbudOmraade"
+        "omraade",
+        "avgjoerelsedato",
+        "pblTiltakForbudtype",
+        "gyldigTilDato"
     ]
 }
