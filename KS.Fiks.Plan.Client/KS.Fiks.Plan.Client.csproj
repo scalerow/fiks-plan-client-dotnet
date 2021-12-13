@@ -77,6 +77,7 @@
 		<None Remove="Schema\no.ks.fiks.gi.plan.v2.innsyn.aktoerer.hent.schema.json" />
 		<None Remove="Schema\no.ks.fiks.gi.plan.v2.innsyn.aktoerer.resultat.schema.json" />
 		<None Remove="Schema\no.ks.fiks.gi.plan.v2.innsyn.arealplan.hent.schema.json" />
+		<None Remove="Schema\no.ks.fiks.gi.plan.v2.innsyn.arealplan.resultat.schema.json" />
 		<None Remove="Schema\no.ks.fiks.gi.plan.v2.innsyn.bbox.resultat.schema.json" />
 		<None Remove="Schema\no.ks.fiks.gi.plan.v2.innsyn.bboxforplan.hent.schema.json" />
 		<None Remove="Schema\no.ks.fiks.gi.plan.v2.innsyn.dispensasjoner.finn.schema.json" />
@@ -319,6 +320,11 @@
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
+		</Content>
+		<Content Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.arealplan.resultat.schema.json">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		  <PackageCopyToOutput>true</PackageCopyToOutput>
+		  <Pack>true</Pack>
 		</Content>
 		<Content Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.aktoerer.resultat.schema.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>

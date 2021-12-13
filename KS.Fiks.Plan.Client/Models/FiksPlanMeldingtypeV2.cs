@@ -27,6 +27,7 @@ namespace KS.Fiks.Plan.Client.Models
         public const string ResultatFinnPlaner = "no.ks.fiks.gi.plan.v2.innsyn.planer.resultat";
         public const string ResultatFinnDispensasjoner = "no.ks.fiks.gi.plan.v2.innsyn.dispensasjoner.resultat";
         public const string ResultatFinnPlanbehandlinger = "no.ks.fiks.gi.plan.v2.innsyn.planbehandlinger.resultat";
+        public const string ResultatHentArealplan = "no.ks.fiks.gi.plan.v2.innsyn.arealplan.resultat";
         public const string ResultatHentGjeldendePlanbestemmelser = "no.ks.fiks.gi.plan.v2.innsyn.gjeldendeplanbestemmelser.resultat";
         public const string ResultatHentAktoerer = "no.ks.fiks.gi.plan.v2.innsyn.aktoerer.resultat";
         public const string ResultatHentRelatertePlaner = "no.ks.fiks.gi.plan.v2.innsyn.relaterteplaner.resultat";
