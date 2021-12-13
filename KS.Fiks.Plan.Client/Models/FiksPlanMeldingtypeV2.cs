@@ -42,6 +42,7 @@ namespace KS.Fiks.Plan.Client.Models
         public const string OpprettArealplan = "no.ks.fiks.gi.plan.v2.oppdatering.arealplan.opprett";
         public const string RegistrertPlanavgrensning = "no.ks.fiks.gi.plan.v2.oppdatering.planavgrensning.registrer";
         public const string RegistrerPlanbehandling = "no.ks.fiks.gi.plan.v2.oppdatering.planbehandling.registrer";
+        public const string RegistrerMidlertidigForbudMotTiltak = "no.ks.fiks.gi.plan.oppdatering.registrermidlertidigforbudmottiltak.v2.schema.json";
         public const string OppdaterArealplan = "no.ks.fiks.gi.plan.v2.oppdatering.arealplan.oppdater";
 
         // Resultat på forespørsler-oppdatering
