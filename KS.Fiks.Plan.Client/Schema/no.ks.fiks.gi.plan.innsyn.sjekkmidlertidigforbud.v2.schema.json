@@ -5,59 +5,33 @@
     "definitions": {},
     "type": "object",
     "properties": {
-        "forbudOmraade": {
-            "type": "object",
+        "omraade": {
             "properties": {
-                "omraade": {
-                    "type": "array",
-                    "allOf": [
-                        { "$ref": "#/definitions/linearRing" }
-                    ]
-                },
-                "saksnummer": {
-                    "type": "object",
-                    "properties": {
-                        "saksaar": {
-                            "type": "integer"
-                        },
-                        "sakssekvensnummer": {
-                            "type": "integer"
-                        }
-                    },
-                    "required": [
-                        "saksaar",
-                        "sakssekvensnummer"
-                    ]
-                },
-                "avgjoerelsesdato": {
-                    "type": "string",
-                    "format": "date"
-                },
-                "pblTiltakForbudType": {
+                "type": {
                     "type": "string",
                     "enum": [
-                        "midlertidigForbudMotTiltak",
-                        "midlertidigForbudNoedvendigSamtykke",
-                        "statligByggeDeleforbud"
+                        "Polygon"
                     ]
                 },
-                "gyldigTilDato": {
-                    "type": "string",
-                    "format": "date"
-                },
-                "omraadenavn": {
-                    "type": "string"
+                "coordinates": {
+                    "type": "array",
+                    "items": {
+                        "type": "array",
+                        "minItems": 4,
+                        "items": {
+                            "type": "array",
+                            "minItems": 2,
+                            "items": {
+                                "type": "number"
+                            }
+                        }
+                    }
                 }
-            },
-            "required": [
-                "omraade",
-                "avgjoerelsesdato",
-                "pblTiltakForbudType",
-                "gyldigTilDato"
-            ]
-        }
-    },
-    "required": [
-        "forbudOmraade"
-    ]
+            }
+        },
+        "required": [
+            "type",
+            "coordinates"
+        ]
+    }
 }
