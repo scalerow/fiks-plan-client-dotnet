@@ -21,6 +21,7 @@ namespace KS.Fiks.Plan.Client.Models
         public const string FinnPlanerForOmraade = "no.ks.fiks.gi.plan.v2.innsyn.planerforomraade.finn";
         public const string HentBboxForPlan = "no.ks.fiks.gi.plan.v2.innsyn.bboxforplan.hent";
         public const string HentPlanomraader = "no.ks.fiks.gi.plan.v2.innsyn.planomraader.hent";
+        public const string SjekkMidlertidigForbud = "no.ks.fiks.gi.plan.innsyn.sjekkmidlertidigforbud.v2";
 
         // Resultat på forespørsler-innsyn
         public const string ResultatFinnPlanerForMatrikkelenhet = "no.ks.fiks.gi.plan.v2.innsyn.planerformatrikkelenhet.resultat";
