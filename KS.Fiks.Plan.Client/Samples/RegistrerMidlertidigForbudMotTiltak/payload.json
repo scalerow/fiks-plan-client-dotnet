@@ -1,11 +1,14 @@
 ﻿{
     "forbudOmraade": {
-        "omraade": [
-            [ 0, 0 ],
-            [ 3, 6 ],
-            [ 6, 1 ],
-            [ 0, 0 ]
-        ],
+        "omraade": {
+            "type": "Polygon",
+            "coordinates": [
+                [ 0, 0 ],
+                [ 3, 6 ],
+                [ 6, 1 ],
+                [ 0, 0 ]
+            ]
+        },
         "saksnummer": {
             "saksaar": 2020,
             "sakssekvensnummer": 12345
