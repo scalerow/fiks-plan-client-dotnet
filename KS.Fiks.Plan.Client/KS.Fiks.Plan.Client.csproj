@@ -66,26 +66,19 @@
 		<None Remove="Samples\RegistrerPlanavgrensing\payload.json" />
 		<None Remove="Samples\SjekkMidlertidigForbud\payload.json" />
 		<None Remove="Samples\TildelePlanident\payload.json" />
-		<None Remove="Schema\no.ks.fiks.gi.plan.innsyn.midlertidigforbud.v2.schema.json" />
-		<None Remove="Schema\no.ks.fiks.gi.plan.innsyn.resultatarealplan.v2.schema.json" />
-		<None Remove="Schema\no.ks.fiks.gi.plan.innsyn.sjekkmidlertidigforbud.v2.schema.json" />
-		<None Remove="Schema\no.ks.fiks.gi.plan.oppdatering.planforslagavvist.v2.schema.json" />
-		<None Remove="Schema\no.ks.fiks.gi.plan.oppdatering.planleggingigangsatt.v2.schema.json" />
-		<None Remove="Schema\no.ks.fiks.gi.plan.oppdatering.planvedtakikraftsatt.v2.schema.json" />
-		<None Remove="Schema\no.ks.fiks.gi.plan.oppdatering.planvedtakmedutsattrettsvirkning.v2.schema.json" />
-		<None Remove="Schema\no.ks.fiks.gi.plan.oppdatering.registrermidlertidigforbudmottiltak.v2.schema.json" />
 		<None Remove="Schema\no.ks.fiks.gi.plan.v2.innsyn.aktoerer.hent.schema.json" />
 		<None Remove="Schema\no.ks.fiks.gi.plan.v2.innsyn.aktoerer.resultat.schema.json" />
 		<None Remove="Schema\no.ks.fiks.gi.plan.v2.innsyn.arealplan.hent.schema.json" />
 		<None Remove="Schema\no.ks.fiks.gi.plan.v2.innsyn.arealplan.resultat.schema.json" />
-		<None Remove="Schema\no.ks.fiks.gi.plan.v2.innsyn.bbox.resultat.schema.json" />
 		<None Remove="Schema\no.ks.fiks.gi.plan.v2.innsyn.bboxforplan.hent.schema.json" />
+		<None Remove="Schema\no.ks.fiks.gi.plan.v2.innsyn.bboxforplan.resultat.schema.json" />
 		<None Remove="Schema\no.ks.fiks.gi.plan.v2.innsyn.dispensasjoner.finn.schema.json" />
 		<None Remove="Schema\no.ks.fiks.gi.plan.v2.innsyn.dispensasjoner.resultat.schema.json" />
 		<None Remove="Schema\no.ks.fiks.gi.plan.v2.innsyn.gjeldendeplanbestemmelser.hent.schema.json" />
 		<None Remove="Schema\no.ks.fiks.gi.plan.v2.innsyn.gjeldendeplanbestemmelser.resultat.schema.json" />
 		<None Remove="Schema\no.ks.fiks.gi.plan.v2.innsyn.kodeliste.hent.schema.json" />
 		<None Remove="Schema\no.ks.fiks.gi.plan.v2.innsyn.kodeliste.resultat.schema.json" />
+		<None Remove="Schema\no.ks.fiks.gi.plan.v2.innsyn.midlertidigforbud.sjekk.schema.json" />
 		<None Remove="Schema\no.ks.fiks.gi.plan.v2.innsyn.planbehandlinger.finn.schema.json" />
 		<None Remove="Schema\no.ks.fiks.gi.plan.v2.innsyn.planbehandlinger.resultat.schema.json" />
 		<None Remove="Schema\no.ks.fiks.gi.plan.v2.innsyn.plandokumenter.finn.schema.json" />
@@ -106,6 +99,7 @@
 		<None Remove="Schema\no.ks.fiks.gi.plan.v2.oppdatering.dispensasjon.oppdater.schema.json" />
 		<None Remove="Schema\no.ks.fiks.gi.plan.v2.oppdatering.dispensasjonplan.registrer.schema.json" />
 		<None Remove="Schema\no.ks.fiks.gi.plan.v2.oppdatering.meldingomplanident.resultat.schema.json" />
+		<None Remove="Schema\no.ks.fiks.gi.plan.v2.oppdatering.midlertidigforbudmottiltak.registrer.schema.json" />
 		<None Remove="Schema\no.ks.fiks.gi.plan.v2.oppdatering.planavgrensning.registrer.schema.json" />
 	</ItemGroup>
 
@@ -331,7 +325,7 @@
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
 		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.bbox.resultat.schema.json">
+		<Content Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.bboxforplan.resultat.schema.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
@@ -421,11 +415,6 @@
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
 		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.innsyn.midlertidigforbud.v2.schema.json">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-			<Pack>true</Pack>
-			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
 		<Content Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.planbehandlinger.resultat.schema.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
@@ -461,12 +450,7 @@
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
 		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.innsyn.resultatarealplan.v2.schema.json">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-			<Pack>true</Pack>
-			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.innsyn.sjekkmidlertidigforbud.v2.schema.json">
+		<Content Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.midlertidigforbud.sjekk.schema.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
@@ -491,32 +475,12 @@
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
 		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.oppdatering.planforslagavvist.v2.schema.json">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-			<Pack>true</Pack>
-			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.oppdatering.planleggingigangsatt.v2.schema.json">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-			<Pack>true</Pack>
-			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.oppdatering.planvedtakikraftsatt.v2.schema.json">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-			<Pack>true</Pack>
-			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.oppdatering.planvedtakmedutsattrettsvirkning.v2.schema.json">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-			<Pack>true</Pack>
-			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
 		<Content Include="Schema\no.ks.fiks.gi.plan.v2.oppdatering.dispensasjonplan.registrer.schema.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
 		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.oppdatering.registrermidlertidigforbudmottiltak.v2.schema.json">
+		<Content Include="Schema\no.ks.fiks.gi.plan.v2.oppdatering.midlertidigforbudmottiltak.registrer.schema.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
@@ -556,7 +520,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<Resource Include="Schema\no.ks.fiks.gi.plan.oppdatering.registrermidlertidigforbudmottiltak.v2.schema.json" />
+		<Resource Include="Schema\no.ks.fiks.gi.plan.v2.oppdatering.midlertidigforbudmottiltak.registrer.schema.json" />
 		<Resource Include="Schema\no.ks.fiks.gi.plan.v2.oppdatering.planavgrensning.registrer.schema.json" />
 	</ItemGroup>
 

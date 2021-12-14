@@ -21,7 +21,7 @@ namespace KS.Fiks.Plan.Client.Models
         public const string FinnPlanerForOmraade = "no.ks.fiks.gi.plan.v2.innsyn.planerforomraade.finn";
         public const string HentBboxForPlan = "no.ks.fiks.gi.plan.v2.innsyn.bboxforplan.hent";
         public const string HentPlanomraader = "no.ks.fiks.gi.plan.v2.innsyn.planomraader.hent";
-        public const string SjekkMidlertidigForbud = "no.ks.fiks.gi.plan.innsyn.sjekkmidlertidigforbud.v2";
+        public const string SjekkMidlertidigForbud = "no.ks.fiks.gi.plan.v2.innsyn.midlertidigforbud.sjekk";
 
         // Resultat på forespørsler-innsyn
         public const string ResultatFinnPlanerForMatrikkelenhet = "no.ks.fiks.gi.plan.v2.innsyn.planerformatrikkelenhet.resultat";
@@ -36,14 +36,15 @@ namespace KS.Fiks.Plan.Client.Models
         public const string ResultatFinnPlandokumenter = "no.ks.fiks.gi.plan.v2.innsyn.plandokumenter.resultat";
         public const string ResultatHentPlanfil = "no.ks.fiks.gi.plan.v2.innsyn.planfil.resultat";
         public const string ResultatFinnPlanerForOmraade = "no.ks.fiks.gi.plan.v2.innsyn.planerforomraade.resultat";
-        public const string ResultatHentBboxForPlan = "no.ks.fiks.gi.plan.v2.innsyn.bbox.resultat";
+        public const string ResultatHentBboxForPlan = "no.ks.fiks.gi.plan.v2.innsyn.bboxforplan.resultat";
         public const string ResultatHentPlanomraader = "no.ks.fiks.gi.plan.v2.innsyn.planomraader.resultat";
+        public const string ResultatSjekkMidlertidigForbud = "no.ks.fiks.gi.plan.v2.innsyn.midlertidigforbud.resultat";
 
         // Forespørsler-oppdatering
         public const string OpprettArealplan = "no.ks.fiks.gi.plan.v2.oppdatering.arealplan.opprett";
         public const string RegistrertPlanavgrensning = "no.ks.fiks.gi.plan.v2.oppdatering.planavgrensning.registrer";
         public const string RegistrerPlanbehandling = "no.ks.fiks.gi.plan.v2.oppdatering.planbehandling.registrer";
-        public const string RegistrerMidlertidigForbudMotTiltak = "no.ks.fiks.gi.plan.oppdatering.registrermidlertidigforbudmottiltak.v2.schema.json";
+        public const string RegistrerMidlertidigForbudMotTiltak = "no.ks.fiks.gi.plan.v2.oppdatering.midlertidigforbudmottiltak.registrer";
         public const string OppdaterArealplan = "no.ks.fiks.gi.plan.v2.oppdatering.arealplan.oppdater";
 
         // Resultat på forespørsler-oppdatering
