@@ -1,8 +1,11 @@
 ﻿{
-    "nasjonalArealplanID": {
-        "administrativEnhet": {
-            "kommunenummer": "0821"
-        },
-        "planidentifikasjon": "planidentifikasjon",
+    "omraade": {
+        "type": "Polygon",
+        "coordinates": [
+            [ 0, 0 ],
+            [ 3, 6 ],
+            [ 6, 1 ],
+            [ 0, 0 ]
+        ]
     }
 }
