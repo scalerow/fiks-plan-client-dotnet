@@ -6,28 +6,45 @@
     "type": "object",
     "properties": {
         "midlertidigForbud": {
-            "forbudOmråde": {
-                "description": "PblMidlForbudMotTiltakOmråde",
-                "type": "object",
-                "properties": {
-                    "omraade": {
-                        "properties": {
-                            "type": {
-                                "type": "string",
-                                "enum": [
-                                    "Polygon"
-                                ]
-                            },
-                            "coordinates": {
+            "description": "PblMidlForbudMotTiltakOmråde",
+            "type": "object",
+            "properties": {
+                "omraade": {
+                    "properties": {
+                        "type": {
+                            "type": "string",
+                            "enum": [
+                                "Polygon"
+                            ]
+                        },
+                        "coordinates": {
+                            "type": "array",
+                            "items": {
                                 "type": "array",
+                                "minItems": 4,
                                 "items": {
                                     "type": "array",
-                                    "minItems": 4,
+                                    "minItems": 2,
                                     "items": {
-                                        "type": "array",
-                                        "minItems": 2,
-                                        "items": {
-                                            "type": "number"
+                                        "type": "number"
+                                    }
+                                }
+                            }
+                        },
+                        "crs": {
+                            "type": "object",
+                            "properties": {
+                                "type": {
+                                    "type": "string",
+                                    "enum": [
+                                        "name"
+                                    ]
+                                },
+                                "properties": {
+                                    "type": "object",
+                                    "properties": {
+                                        "name": {
+                                            "type": "string"
                                         }
                                     }
                                 }
@@ -37,52 +54,49 @@
                     "required": [
                         "type",
                         "coordinates"
-                    ],
-                    "saksnummer": {
-                        "type": "object",
-                        "properties": {
-                            "saksaar": {
-                                "type": "integer"
-                            },
-                            "sakssekvensnummer": {
-                                "type": "integer"
-                            }
+                    ]
+                },
+                "saksnummer": {
+                    "type": "object",
+                    "properties": {
+                        "saksaar": {
+                            "type": "integer"
                         },
-                        "required": [
-                            "saksaar",
-                            "sakssekvensnummer"
-                        ]
-                    },
-                    "avgjoerelsedato": {
-                        "type": "string",
-                        "format": "date"
-                    },
-                    "pblTiltakForbudtype": {
-                        "kodeverdi": {
-                            "type": "string"
-                        },
-                        "kodebeskrivelse": {
-                            "type": "string"
+                        "sakssekvensnummer": {
+                            "type": "integer"
                         }
                     },
-                    "gyldigTilDato": {
-                        "type": "string",
-                        "format": "date"
+                    "required": [
+                        "saksaar",
+                        "sakssekvensnummer"
+                    ]
+                },
+                "avgjoerelsedato": {
+                    "type": "string",
+                    "format": "date"
+                },
+                "pblTiltakForbudtype": {
+                    "kodeverdi": {
+                        "type": "string"
                     },
-                    "omraadenavn": {
+                    "kodebeskrivelse": {
                         "type": "string"
                     }
+                },
+                "gyldigTilDato": {
+                    "type": "string",
+                    "format": "date"
+                },
+                "omraadenavn": {
+                    "type": "string"
                 }
-            }
-        },
-        "required": [
-            "omraade",
-            "avgjoerelsedato",
-            "pblTiltakForbudtype",
-            "gyldigTilDato"
-        ]
-    },
-    "required": [
-        "midlertidigForbud"
-    ]
+            },
+            "required": [
+                "omraade",
+                "avgjoerelsedato",
+                "pblTiltakForbudtype",
+                "gyldigTilDato"
+            ]
+        }
+    }
 }
