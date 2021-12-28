@@ -94,7 +94,11 @@
                             }
                         }
                     }
-                }
+                },
+                "required": [
+                    "type",
+                    "coordinates"
+                ]
             },
             "vertikalnivaa": {
                 "type": "object",

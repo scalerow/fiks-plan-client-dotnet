@@ -126,7 +126,11 @@
                                 }
                             }
                         }
-                    }
+                    },
+                    "required": [
+                        "type",
+                        "coordinates"
+                    ]
                 },
                 "dato": {
                     "type": "string",
