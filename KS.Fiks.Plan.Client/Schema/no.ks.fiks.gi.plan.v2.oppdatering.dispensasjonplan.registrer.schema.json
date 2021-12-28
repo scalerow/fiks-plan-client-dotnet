@@ -117,13 +117,6 @@
                                 "type": "number"
                             }
                         },
-                        "bbox": {
-                            "type": "array",
-                            "minItems": 4,
-                            "items": {
-                                "type": "number"
-                            }
-                        },
                         "crs": {
                             "type": "object",
                             "properties": {
