@@ -61,6 +61,7 @@
 		<None Remove="Samples\PlanvedtakMedUtsattRettsvirkning\payload.json" />
 		<None Remove="Samples\Planvedtak\payload.json" />
 		<None Remove="Samples\PlanVedtattMedInnsigelse\payload.json" />
+		<None Remove="Samples\RegistrerDispensasjonFraPlan\Attachments\vedtak.pdf" />
 		<None Remove="Samples\RegistrerDispensasjonFraPlan\payload.json" />
 		<None Remove="Samples\RegistrerMidlertidigForbudMotTiltak\payload.json" />
 		<None Remove="Samples\RegistrerPlanavgrensing\payload.json" />
@@ -290,6 +291,7 @@
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
 		</Content>
+		<Content Include="Samples\RegistrerDispensasjonFraPlan\Attachments\vedtak.pdf" />
 		<Content Include="Samples\RegistrerDispensasjonFraPlan\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
