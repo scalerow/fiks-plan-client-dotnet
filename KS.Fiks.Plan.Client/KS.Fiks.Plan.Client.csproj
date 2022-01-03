@@ -291,7 +291,11 @@
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
 		</Content>
-		<Content Include="Samples\RegistrerDispensasjonFraPlan\Attachments\vedtak.pdf" />
+		<Content Include="Samples\RegistrerDispensasjonFraPlan\Attachments\vedtak.pdf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+			<Pack>true</Pack>
+			<PackageCopyToOutput>true</PackageCopyToOutput>
+		</Content>
 		<Content Include="Samples\RegistrerDispensasjonFraPlan\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
