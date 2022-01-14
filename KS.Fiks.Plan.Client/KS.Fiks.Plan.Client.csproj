@@ -30,17 +30,17 @@
 		<None Remove="Samples\FinnPlanbehandlinger\payload.json" />
 		<None Remove="Samples\FinnPlandokumenter\payload.json" />
 		<None Remove="Samples\FinnPlanerForMatrikkelenhet\payload.json" />
-		<None Remove="Samples\FinnPlanerForOmråde\payload.json" />
+		<None Remove="Samples\FinnPlanerForOmraade\payload.json" />
 		<None Remove="Samples\FinnPlaner\payload.json" />
-		<None Remove="Samples\HentAktører\payload.json" />
+		<None Remove="Samples\HentAktoerer\payload.json" />
 		<None Remove="Samples\HentArealplan\payload.json" />
 		<None Remove="Samples\HentBbox\payload.json" />
 		<None Remove="Samples\HentGjeldendePlanbestemmelser\payload.json" />
 		<None Remove="Samples\HentKodeliste\payload.json" />
 		<None Remove="Samples\HentPlanfil\payload.json" />
-		<None Remove="Samples\HentPlanområder\payload.json" />
+		<None Remove="Samples\HentPlanomraader\payload.json" />
 		<None Remove="Samples\HentRelatertePlaner\payload.json" />
-		<None Remove="Samples\HøringsfristUtgått\payload.json" />
+		<None Remove="Samples\HoeringsfristUtgaatt\payload.json" />
 		<None Remove="Samples\KunngjøringAvOffentligEttersyn\payload.json" />
 		<None Remove="Samples\KunngjøringAvOffentligEttersyn\reguleringsplan_brev_hoering_offentlig_ettersyn_bokm_mal.doc" />
 		<None Remove="Samples\KunngjøringAvPlanvedtak\payload.json" />
@@ -137,7 +137,7 @@
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
 		</Content>
-		<Content Include="Samples\FinnPlanerForOmråde\payload.json">
+		<Content Include="Samples\FinnPlanerForOmraade\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
@@ -147,7 +147,7 @@
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
 		</Content>
-		<Content Include="Samples\HentAktører\payload.json">
+		<Content Include="Samples\HentAktoerer\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
@@ -177,7 +177,7 @@
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
 		</Content>
-		<Content Include="Samples\HentPlanområder\payload.json">
+		<Content Include="Samples\HentPlanomraader\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
@@ -187,7 +187,7 @@
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
 		</Content>
-		<Content Include="Samples\HøringsfristUtgått\payload.json">
+		<Content Include="Samples\HoeringsfristUtgaatt\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
