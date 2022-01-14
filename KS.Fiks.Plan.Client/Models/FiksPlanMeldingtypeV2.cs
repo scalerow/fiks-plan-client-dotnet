@@ -52,10 +52,10 @@ namespace KS.Fiks.Plan.Client.Models
         public const string ResultatMottat = "no.ks.fiks.gi.plan.v2.oppdatering.mottatt";
 
         // Ebyggesak 
-        public const string RegistrerDispensasjonFraPlan = "no.ks.fiks.gi.plan.v2.oppdatering.dispensasjon.registrer";
+        public const string RegistrerDispensasjonFraPlan = "no.ks.fiks.gi.plan.v2.oppdatering.dispensasjonplan.registrer";
         public const string OppdaterDispensasjon = "no.ks.fiks.gi.plan.v2.oppdatering.dispensasjon.oppdater";
 
-        public const string ResultatRegistrerDispensasjonFraPlan = "no.ks.fiks.gi.plan.v2.oppdatering.dispensasjon.resultat";
+        public const string ResultatRegistrerDispensasjonFraPlan = "no.ks.fiks.gi.plan.v2.oppdatering.dispensasjonplan.resultat";
 
 
         private static Dictionary<string, string> Skjemanavn;

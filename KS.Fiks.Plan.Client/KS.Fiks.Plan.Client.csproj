@@ -98,8 +98,8 @@
 		<None Remove="Schema\no.ks.fiks.gi.plan.v2.oppdatering.arealplan.oppdater.schema.json" />
 		<None Remove="Schema\no.ks.fiks.gi.plan.v2.oppdatering.arealplan.opprett.schema.json" />
 		<None Remove="Schema\no.ks.fiks.gi.plan.v2.oppdatering.dispensasjon.oppdater.schema.json" />
-		<None Remove="Schema\no.ks.fiks.gi.plan.v2.oppdatering.dispensasjon.registrer.schema.json" />
-		<None Remove="Schema\no.ks.fiks.gi.plan.v2.oppdatering.dispensasjon.resultat.schema.json" />
+		<None Remove="Schema\no.ks.fiks.gi.plan.v2.oppdatering.dispensasjonplan.registrer.schema.json" />
+		<None Remove="Schema\no.ks.fiks.gi.plan.v2.oppdatering.dispensasjonplan.resultat.schema.json" />
 		<None Remove="Schema\no.ks.fiks.gi.plan.v2.oppdatering.meldingomplanident.resultat.schema.json" />
 		<None Remove="Schema\no.ks.fiks.gi.plan.v2.oppdatering.midlertidigforbudmottiltak.registrer.schema.json" />
 		<None Remove="Schema\no.ks.fiks.gi.plan.v2.oppdatering.planavgrensning.registrer.schema.json" />
@@ -322,7 +322,7 @@
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
 		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.v2.oppdatering.dispensasjon.resultat.schema.json">
+		<Content Include="Schema\no.ks.fiks.gi.plan.v2.oppdatering.dispensasjonplan.resultat.schema.json">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		  <PackageCopyToOutput>true</PackageCopyToOutput>
 		  <Pack>true</Pack>
@@ -487,7 +487,7 @@
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
 		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.v2.oppdatering.dispensasjon.registrer.schema.json">
+		<Content Include="Schema\no.ks.fiks.gi.plan.v2.oppdatering.dispensasjonplan.registrer.schema.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
