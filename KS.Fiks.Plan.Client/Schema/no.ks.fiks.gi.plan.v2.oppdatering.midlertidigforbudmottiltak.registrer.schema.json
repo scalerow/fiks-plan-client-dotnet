@@ -6,8 +6,8 @@
     "definitions": {},
     "type": "object",
     "properties": {
-        "forbudOmråde": {
-            "description": "PblMidlForbudMotTiltakOmråde",
+        "forbudOmraade": {
+            "description": "PblMidlForbudMotTiltakOmraade",
             "type": "object",
             "properties": {
                 "omraade": {

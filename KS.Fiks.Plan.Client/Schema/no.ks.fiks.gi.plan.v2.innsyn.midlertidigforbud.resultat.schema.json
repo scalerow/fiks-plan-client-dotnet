@@ -6,7 +6,7 @@
     "type": "object",
     "properties": {
         "midlertidigForbud": {
-            "description": "PblMidlForbudMotTiltakOmråde",
+            "description": "PblMidlForbudMotTiltakOmraade",
             "type": "object",
             "properties": {
                 "omraade": {
