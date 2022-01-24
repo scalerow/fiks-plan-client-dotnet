@@ -103,6 +103,15 @@ namespace KS.Fiks.Plan.Client.Models
             AddSkjemanavnTilDictionary(ResultatMottat);
             AddSkjemanavnTilDictionary(RegistrerDispensasjonFraPlan);
             AddSkjemanavnTilDictionary(OppdaterDispensasjon);
+            AddSkjemanavnTilDictionary(SjekkMidlertidigForbud);
+            AddSkjemanavnTilDictionary(ResultatFinnPlanbehandlinger);
+            AddSkjemanavnTilDictionary(ResultatHentArealplan);
+            AddSkjemanavnTilDictionary(ResultatFinnPlandokumenter);
+            AddSkjemanavnTilDictionary(ResultatHentPlanomraader);
+            AddSkjemanavnTilDictionary(ResultatSjekkMidlertidigForbud);
+            AddSkjemanavnTilDictionary(RegistrerMidlertidigForbudMotTiltak);
+            AddSkjemanavnTilDictionary(ResultatOpprettArealplan);
+            AddSkjemanavnTilDictionary(ResultatRegistrerDispensasjonFraPlan);
         }
 
         private static void AddSkjemanavnTilDictionary(string meldingstype)
