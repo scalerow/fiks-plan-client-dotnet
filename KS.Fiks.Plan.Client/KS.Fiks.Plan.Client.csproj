@@ -107,406 +107,406 @@
 
 
 	<ItemGroup>
-		<Content Include="Samples\BesluttetOffentligEttersyn\payload.json">
+		<EmbeddedResource Include="Samples\BesluttetOffentligEttersyn\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Samples\BestillingAvOppstartsmøte\payload.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\BestillingAvOppstartsmøte\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Samples\FinnDispensasjoner\payload.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\FinnDispensasjoner\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Samples\FinnPlanbehandlinger\payload.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\FinnPlanbehandlinger\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Samples\FinnPlandokumenter\payload.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\FinnPlandokumenter\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Samples\FinnPlanerForMatrikkelenhet\payload.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\FinnPlanerForMatrikkelenhet\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Samples\FinnPlanerForOmraade\payload.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\FinnPlanerForOmraade\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Samples\FinnPlaner\payload.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\FinnPlaner\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Samples\HentAktoerer\payload.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\HentAktoerer\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Samples\HentArealplan\payload.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\HentArealplan\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Samples\HentBbox\payload.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\HentBbox\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Samples\HentGjeldendePlanbestemmelser\payload.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\HentGjeldendePlanbestemmelser\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Samples\HentKodeliste\payload.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\HentKodeliste\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Samples\HentPlanfil\payload.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\HentPlanfil\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Samples\HentPlanomraader\payload.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\HentPlanomraader\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Samples\HentRelatertePlaner\payload.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\HentRelatertePlaner\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Samples\HoeringsfristUtgaatt\payload.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\HoeringsfristUtgaatt\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Samples\KunngjøringAvOffentligEttersyn\payload.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\KunngjøringAvOffentligEttersyn\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Samples\KunngjøringAvOffentligEttersyn\reguleringsplan_brev_hoering_offentlig_ettersyn_bokm_mal.doc">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\KunngjøringAvOffentligEttersyn\reguleringsplan_brev_hoering_offentlig_ettersyn_bokm_mal.doc">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Samples\KunngjøringAvPlanvedtak\payload.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\KunngjøringAvPlanvedtak\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Samples\KunngjøringAvPlanvedtak\reguleringsplan_brev_melding_endelig_vedtak_med_informasjon_klagerett_bokm_mal.doc">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\KunngjøringAvPlanvedtak\reguleringsplan_brev_melding_endelig_vedtak_med_informasjon_klagerett_bokm_mal.doc">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Samples\KunngjøringOgVarslingAvPlanoppstart\payload.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\KunngjøringOgVarslingAvPlanoppstart\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Samples\MottattInnsigelse\payload.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\MottattInnsigelse\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Samples\MottattKlage\payload.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\MottattKlage\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Samples\OppdaterArealplan\payload.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\OppdaterArealplan\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Samples\OppdaterDispensasjon\payload.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\OppdaterDispensasjon\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Samples\PlanEndeligVedtatt\nasjonal_mal_reguleringsplanbestemmelserbokmaal.docx">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\PlanEndeligVedtatt\nasjonal_mal_reguleringsplanbestemmelserbokmaal.docx">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Samples\PlanEndeligVedtatt\payload.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\PlanEndeligVedtatt\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Samples\PlanforslagAvvist\payload.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\PlanforslagAvvist\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Samples\PlanforslagTattTilBehandling\nasjonal_mal_reguleringsplanbestemmelserbokmaal.docx">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\PlanforslagTattTilBehandling\nasjonal_mal_reguleringsplanbestemmelserbokmaal.docx">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Samples\PlanforslagTattTilBehandling\payload.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\PlanforslagTattTilBehandling\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Samples\PlaninitiativStoppet\payload.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\PlaninitiativStoppet\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Samples\PlanleggingIgangsatt\payload.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\PlanleggingIgangsatt\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Samples\PlanvedtakIkraftsatt\payload.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\PlanvedtakIkraftsatt\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Samples\PlanvedtakMedUtsattRettsvirkning\payload.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\PlanvedtakMedUtsattRettsvirkning\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Samples\Planvedtak\payload.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\Planvedtak\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Samples\PlanVedtattMedInnsigelse\payload.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\PlanVedtattMedInnsigelse\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Samples\RegistrerDispensasjonFraPlan\Attachments\vedtak.pdf">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\RegistrerDispensasjonFraPlan\Attachments\vedtak.pdf">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Samples\RegistrerDispensasjonFraPlan\payload.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\RegistrerDispensasjonFraPlan\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Samples\RegistrerMidlertidigForbudMotTiltak\payload.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\RegistrerMidlertidigForbudMotTiltak\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Samples\RegistrerPlanavgrensing\payload.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\RegistrerPlanavgrensing\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Samples\SjekkMidlertidigForbud\payload.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\SjekkMidlertidigForbud\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Samples\TildelePlanident\payload.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\TildelePlanident\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.v2.oppdatering.dispensasjonplan.resultat.schema.json">
-		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		  <PackageCopyToOutput>true</PackageCopyToOutput>
-		  <Pack>true</Pack>
-		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.arealplan.resultat.schema.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Schema\no.ks.fiks.gi.plan.v2.oppdatering.dispensasjonplan.resultat.schema.json">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		  <PackageCopyToOutput>true</PackageCopyToOutput>
 		  <Pack>true</Pack>
-		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.aktoerer.resultat.schema.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.arealplan.resultat.schema.json">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		  <PackageCopyToOutput>true</PackageCopyToOutput>
+		  <Pack>true</Pack>
+		</EmbeddedResource>
+		<EmbeddedResource Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.aktoerer.resultat.schema.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.bboxforplan.resultat.schema.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.bboxforplan.resultat.schema.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.dispensasjoner.resultat.schema.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.dispensasjoner.resultat.schema.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.dispensasjoner.finn.schema.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.dispensasjoner.finn.schema.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.planbehandlinger.finn.schema.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.planbehandlinger.finn.schema.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.plandokumenter.finn.schema.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.plandokumenter.finn.schema.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.planer.finn.schema.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.planer.finn.schema.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.planerformatrikkelenhet.finn.schema.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.planerformatrikkelenhet.finn.schema.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.planerforomraade.finn.schema.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.planerforomraade.finn.schema.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.gjeldendeplanbestemmelser.resultat.schema.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.gjeldendeplanbestemmelser.resultat.schema.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.aktoerer.hent.schema.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.aktoerer.hent.schema.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.arealplan.hent.schema.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.arealplan.hent.schema.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.bboxforplan.hent.schema.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.bboxforplan.hent.schema.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.gjeldendeplanbestemmelser.hent.schema.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.gjeldendeplanbestemmelser.hent.schema.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.kodeliste.hent.schema.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.kodeliste.hent.schema.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.planfil.hent.schema.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.planfil.hent.schema.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.planomraader.hent.schema.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.planomraader.hent.schema.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.relaterteplaner.hent.schema.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.relaterteplaner.hent.schema.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.kodeliste.resultat.schema.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.kodeliste.resultat.schema.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.planbehandlinger.resultat.schema.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.planbehandlinger.resultat.schema.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.plandokumenter.resultat.schema.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.plandokumenter.resultat.schema.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.planerformatrikkelenhet.resultat.schema.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.planerformatrikkelenhet.resultat.schema.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.planerforomraade.resultat.schema.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.planerforomraade.resultat.schema.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.planer.resultat.schema.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.planer.resultat.schema.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.planomraader.resultat.schema.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.planomraader.resultat.schema.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.relaterteplaner.resultat.schema.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.relaterteplaner.resultat.schema.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.midlertidigforbud.sjekk.schema.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.midlertidigforbud.sjekk.schema.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.v2.oppdatering.meldingomplanident.resultat.schema.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Schema\no.ks.fiks.gi.plan.v2.oppdatering.meldingomplanident.resultat.schema.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.v2.oppdatering.arealplan.oppdater.schema.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Schema\no.ks.fiks.gi.plan.v2.oppdatering.arealplan.oppdater.schema.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.v2.oppdatering.dispensasjon.oppdater.schema.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Schema\no.ks.fiks.gi.plan.v2.oppdatering.dispensasjon.oppdater.schema.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.v2.oppdatering.arealplan.opprett.schema.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Schema\no.ks.fiks.gi.plan.v2.oppdatering.arealplan.opprett.schema.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.v2.oppdatering.dispensasjonplan.registrer.schema.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Schema\no.ks.fiks.gi.plan.v2.oppdatering.dispensasjonplan.registrer.schema.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.v2.oppdatering.midlertidigforbudmottiltak.registrer.schema.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Schema\no.ks.fiks.gi.plan.v2.oppdatering.midlertidigforbudmottiltak.registrer.schema.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.v2.oppdatering.planavgrensning.registrer.schema.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Schema\no.ks.fiks.gi.plan.v2.oppdatering.planavgrensning.registrer.schema.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
-		<Content Include="Schema\no.ks.fiks.gi.plan.v2.oppdatering.planbehandling.registrer.schema.json">
+		</EmbeddedResource>
+		<EmbeddedResource Include="Schema\no.ks.fiks.gi.plan.v2.oppdatering.planbehandling.registrer.schema.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
-		</Content>
+		</EmbeddedResource>
 	</ItemGroup>
 
 	<ItemGroup>
