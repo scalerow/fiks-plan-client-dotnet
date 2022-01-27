@@ -14,5 +14,23 @@
         "vedtaksdato": "2020-01-01",
         "innvilgetDispensasjon": true,
         "varigDispensasjon": true
-    }
+    },
+    "plandokument": [
+        {
+            "tittel": "Klage",
+            "dokumenttype": {
+                "kodeverdi": "KLAGE",
+                "kodebeskrivelse": "klage"
+            },
+            "referanseDokumentfil": "Klage.pdf"
+        },
+        {
+            "tittel": "Vedtak",
+            "dokumenttype": {
+                "kodeverdi": "VEDTAK",
+                "kodebeskrivelse": "Vedtak"
+            },
+            "referanseDokumentfil": "reguleringsplan_brev_melding_endelig_vedtak_med_informasjon_klagerett_bokm_mal.doc"
+        }
+    ]
 }

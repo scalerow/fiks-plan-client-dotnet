@@ -26,6 +26,38 @@
             },
             "referanseDokumentfil": "reguleringsplan_brev_hoering_offentlig_ettersyn_bokm_mal.doc",
             "arkivnavn": "vedtak reguleringsplan"
+        },
+        {
+            "tittel": "Kunngjøring",
+            "dokumenttype": {
+                "kodeverdi": "KUNNGJ",
+                "kodebeskrivelse": "Kunngjøring"
+            },
+            "referanseDokumentfil": "Kunngjøring.pdf"
+        },
+        {
+            "tittel": "Planbeskrivelse",
+            "dokumenttype": {
+                "kodeverdi": "PLANBESKR",
+                "kodebeskrivelse": "Planbeskrivelse"
+            },
+            "referanseDokumentfil": "Planbeskrivelse.pdf"
+        },
+        {
+            "tittel": "PlanKart",
+            "dokumenttype": {
+                "kodeverdi": "KART",
+                "kodebeskrivelse": "Kart"
+            },
+            "referanseDokumentfil": "PlanKart.pdf"
+        },
+        {
+            "tittel": "Planbestemmelse",
+            "dokumenttype": {
+                "kodeverdi": "PLANBEST",
+                "kodebeskrivelse": "Bestemmelser"
+            },
+            "referanseDokumentfil": "Planbestemmelse.pdf"
         }
     ]
 }

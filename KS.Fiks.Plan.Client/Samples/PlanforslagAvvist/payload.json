@@ -7,7 +7,7 @@
     },
     "planstatus": {
         "kodeverdi": "9",
-        "kodebeskrivelse": "Avvist" 
+        "kodebeskrivelse": "Avvist"
     },
     "planbehandling": {
         "dato": "2020-01-01",
@@ -20,5 +20,15 @@
             "kodebeskrivelse": "Ikke fremmet"
         },
         "navn": "navn på registrering"
-    }
+    },
+    "plandokument": [
+        {
+            "tittel": "Vedtak",
+            "dokumenttype": {
+                "kodeverdi": "VEDTAK",
+                "kodebeskrivelse": "Vedtak"
+            },
+            "referanseDokumentfil": "reguleringsplan_brev_melding_endelig_vedtak_med_informasjon_klagerett_bokm_mal.doc"
+        }
+    ]
 }

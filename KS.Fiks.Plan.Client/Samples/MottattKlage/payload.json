@@ -16,5 +16,15 @@
             "kodebeskrivelse": "Mottatt klage"
         },
         "navn": "navn på registrering"
-    }
+    },
+    "plandokument": [
+        {
+            "tittel": "Klage",
+            "dokumenttype": {
+                "kodeverdi": "KLAGE",
+                "kodebeskrivelse": "Klage"
+            },
+            "referanseDokumentfil": "Klage.pdf"
+        }
+    ]
 }

@@ -16,5 +16,15 @@
             "kodebeskrivelse": "Mottatt innsigelse"
         },
         "navn": "navn på registrering"
-    }
+    },
+    "plandokument": [
+        {
+            "tittel": "Innsigelse",
+            "dokumenttype": {
+                "kodeverdi": "INNSIGELSE",
+                "kodebeskrivelse": "Innsigelse"
+            },
+            "referanseDokumentfil": "Innsigelse.pdf"
+        }
+    ]
 }

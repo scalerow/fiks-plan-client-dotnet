@@ -20,5 +20,39 @@
             "kodebeskrivelse": "Plan endelig vedtatt"
         },
         "navn": "navn på registrering"
-    }
+    },
+    "plandokument": [
+        {
+            "tittel": "Vedtak",
+            "dokumenttype": {
+                "kodeverdi": "VEDTAK",
+                "kodebeskrivelse": "Vedtak"
+            },
+            "referanseDokumentfil": "Vedtak.pdf"
+        },
+        {
+            "tittel": "Planbeskrivelse",
+            "dokumenttype": {
+                "kodeverdi": "PLANBESKR",
+                "kodebeskrivelse": "Planbeskrivelse"
+            },
+            "referanseDokumentfil": "Planbeskrivelse.pdf"
+        },
+        {
+            "tittel": "PlanKart",
+            "dokumenttype": {
+                "kodeverdi": "KART",
+                "kodebeskrivelse": "Kart"
+            },
+            "referanseDokumentfil": "PlanKart.pdf"
+        },
+        {
+            "tittel": "Planbestemmelse",
+            "dokumenttype": {
+                "kodeverdi": "PLANBEST",
+                "kodebeskrivelse": "Bestemmelser"
+            },
+            "referanseDokumentfil": "Planbestemmelse.pdf"
+        }
+    ]
 }

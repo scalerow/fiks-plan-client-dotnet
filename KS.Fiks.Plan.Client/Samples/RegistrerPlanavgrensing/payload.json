@@ -7,13 +7,12 @@
     },
     "vedlegg": [
         {
-            "tittel": "Planavgrensning",
+            "tittel": "Plankart",
             "dokumenttype": {
-                "kodebeskrivelse": "kart",
+                "kodebeskrivelse": "Kart",
                 "kodeverdi": "KART"
             },
-            "referanseDokumentfil": "omrissOppdatert.gml",
-            "arkivnavn": "kartOppdatertOmriss"
+            "referanseDokumentfil": "Plankart.pdf"
         }
     ]
 }

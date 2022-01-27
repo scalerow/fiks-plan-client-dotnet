@@ -20,5 +20,23 @@
             "kodebeskrivelse": "Planlegging igangsatt/Oppstartsmøte avholdt"
         },
         "navn": "navn på registrering"
-    }
+    },
+    "plandokument": [
+        {
+            "tittel": "Planinitiativ",
+            "dokumenttype": {
+                "kodeverdi": "KORR",
+                "kodebeskrivelse": "Korrespondanse"
+            },
+            "referanseDokumentfil": "Planinitiativ.pdf"
+        },
+        {
+            "tittel": "Planprogram",
+            "dokumenttype": {
+                "kodeverdi": "PLANPROG",
+                "kodebeskrivelse": "Planprogram"
+            },
+            "referanseDokumentfil": "Planprogram.pdf"
+        }
+    ]
 }

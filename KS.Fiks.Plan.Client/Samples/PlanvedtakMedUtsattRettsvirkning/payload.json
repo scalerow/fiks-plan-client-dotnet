@@ -20,5 +20,15 @@
             "kodebeskrivelse": "Plan vedtatt med innsigelse"
         },
         "navn": "navn på registrering"
-    }
+    },
+    "plandokument": [
+        {
+            "tittel": "Vedtak",
+            "dokumenttype": {
+                "kodeverdi": "VEDTAK",
+                "kodebeskrivelse": "Vedtak"
+            },
+            "referanseDokumentfil": "Vedtak.pdf"
+        }
+    ]
 }
