@@ -31,28 +31,12 @@
             "referanseDokumentfil": "Planinitiativ.pdf"
         },
         {
-            "tittel": "Planbeskrivelse",
-            "dokumenttype": {
-                "kodeverdi": "PLANBESKR",
-                "kodebeskrivelse": "Planbeskrivelse"
-            },
-            "referanseDokumentfil": "Planbeskrivelse.pdf"
-        },
-        {
-            "tittel": "PlanKart",
+            "tittel": "Planområde",
             "dokumenttype": {
                 "kodeverdi": "KART",
                 "kodebeskrivelse": "Kart"
             },
-            "referanseDokumentfil": "PlanKart.pdf"
-        },
-        {
-            "tittel": "Planbestemmelse",
-            "dokumenttype": {
-                "kodeverdi": "PLANBEST",
-                "kodebeskrivelse": "Bestemmelser"
-            },
-            "referanseDokumentfil": "Planbestemmelse.pdf"
+            "referanseDokumentfil": "Planomraade.pdf"
         }
     ]
 }

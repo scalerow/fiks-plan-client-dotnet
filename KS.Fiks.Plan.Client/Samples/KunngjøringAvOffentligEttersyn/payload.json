@@ -46,8 +46,8 @@
         {
             "tittel": "PlanKart",
             "dokumenttype": {
-                "kodeverdi": "KART",
-                "kodebeskrivelse": "Kart"
+                "kodeverdi": "PLANKART",
+                "kodebeskrivelse": "Arealplankart"
             },
             "referanseDokumentfil": "PlanKart.pdf"
         },

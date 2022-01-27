@@ -7,12 +7,20 @@
     },
     "vedlegg": [
         {
-            "tittel": "Plankart",
+            "tittel": "Planomraade_pdf",
             "dokumenttype": {
                 "kodebeskrivelse": "Kart",
                 "kodeverdi": "KART"
             },
-            "referanseDokumentfil": "Plankart.pdf"
+            "referanseDokumentfil": "Planomraade.pdf"
+        },
+        {
+            "tittel": "Planomraade_gml",
+            "dokumenttype": {
+                "kodebeskrivelse": "Kart",
+                "kodeverdi": "KART"
+            },
+            "referanseDokumentfil": "Planomraade.gml"
         }
     ]
 }
