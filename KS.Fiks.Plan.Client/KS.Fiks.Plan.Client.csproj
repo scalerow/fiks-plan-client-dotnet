@@ -61,6 +61,10 @@
 		<None Remove="Samples\MottattInnsigelse\payload.json" />
 		<None Remove="Samples\MottattKlage\Attachments\Klage.pdf" />
 		<None Remove="Samples\MottattKlage\payload.json" />
+		<None Remove="Samples\OppdaterArealplan - Copy (2)\payload.json" />
+		<None Remove="Samples\UtgaattErstattet\payload.json" />
+		<None Remove="Samples\TrukketPlanforslag\Attachments\Underlag.pdf" />
+		<None Remove="Samples\TrukketPlanforslag\payload.json" />
 		<None Remove="Samples\VedtattOpphevelse\Attachments\Vedtak.pdf" />
 		<None Remove="Samples\VedtattOpphevelse\payload.json" />
 		<None Remove="Samples\OppdaterArealplan\payload.json" />
@@ -321,6 +325,26 @@
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\Overstyrt\payload.json">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		  <PackageCopyToOutput>true</PackageCopyToOutput>
+		  <Pack>true</Pack>
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\UtgaattErstattet\payload.json">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		  <PackageCopyToOutput>true</PackageCopyToOutput>
+		  <Pack>true</Pack>
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\TrukketPlanforslag\Attachments\Underlag.pdf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+			<PackageCopyToOutput>true</PackageCopyToOutput>
+			<Pack>true</Pack>
+		</EmbeddedResource>
+		<EmbeddedResource Include="Samples\TrukketPlanforslag\payload.json">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		  <PackageCopyToOutput>true</PackageCopyToOutput>
+		  <Pack>true</Pack>
 		</EmbeddedResource>
 		<EmbeddedResource Include="Samples\VedtattOpphevelse\Attachments\Vedtak.pdf">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
