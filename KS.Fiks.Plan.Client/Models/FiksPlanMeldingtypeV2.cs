@@ -8,6 +8,7 @@ namespace KS.Fiks.Plan.Client.Models
     {
         // Forespørsler-innsyn
         public const string FinnPlanerForMatrikkelenhet = "no.ks.fiks.gi.plan.v2.innsyn.planerformatrikkelenhet.finn";
+        public const string FinnPlanerForAdresse = "no.ks.fiks.gi.plan.v2.innsyn.planerforadresse.finn";
         public const string FinnPlaner = "no.ks.fiks.gi.plan.v2.innsyn.planer.finn";
         public const string FinnDispensasjoner = "no.ks.fiks.gi.plan.v2.innsyn.dispensasjoner.finn";
         public const string FinnPlanbehandlinger = "no.ks.fiks.gi.plan.v2.innsyn.planbehandlinger.finn";
@@ -25,6 +26,7 @@ namespace KS.Fiks.Plan.Client.Models
 
         // Resultat på forespørsler-innsyn
         public const string ResultatFinnPlanerForMatrikkelenhet = "no.ks.fiks.gi.plan.v2.innsyn.planerformatrikkelenhet.resultat";
+        public const string ResultatFinnPlanerForAdresse = "no.ks.fiks.gi.plan.v2.innsyn.planerforadresse.resultat";
         public const string ResultatFinnPlaner = "no.ks.fiks.gi.plan.v2.innsyn.planer.resultat";
         public const string ResultatFinnDispensasjoner = "no.ks.fiks.gi.plan.v2.innsyn.dispensasjoner.resultat";
         public const string ResultatFinnPlanbehandlinger = "no.ks.fiks.gi.plan.v2.innsyn.planbehandlinger.resultat";
@@ -73,6 +75,7 @@ namespace KS.Fiks.Plan.Client.Models
         {
             Skjemanavn = new Dictionary<string, string>();
             AddSkjemanavnTilDictionary(FinnPlanerForMatrikkelenhet);
+            AddSkjemanavnTilDictionary(FinnPlanerForAdresse);
             AddSkjemanavnTilDictionary(FinnPlaner);
             AddSkjemanavnTilDictionary(FinnDispensasjoner);
             AddSkjemanavnTilDictionary(FinnPlanbehandlinger);
@@ -87,6 +90,7 @@ namespace KS.Fiks.Plan.Client.Models
             AddSkjemanavnTilDictionary(HentBboxForPlan);
             AddSkjemanavnTilDictionary(HentPlanomraader);
             AddSkjemanavnTilDictionary(ResultatFinnPlanerForMatrikkelenhet);
+            AddSkjemanavnTilDictionary(ResultatFinnPlanerForAdresse);
             AddSkjemanavnTilDictionary(ResultatFinnPlaner);
             AddSkjemanavnTilDictionary(ResultatFinnDispensasjoner);
             AddSkjemanavnTilDictionary(ResultatHentGjeldendePlanbestemmelser);
