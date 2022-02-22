@@ -45,17 +45,17 @@
 		<None Remove="Samples\HentPlanomraader\payload.json" />
 		<None Remove="Samples\HentRelatertePlaner\payload.json" />
 		<None Remove="Samples\HoeringsfristUtgaatt\payload.json" />
-		<None Remove="Samples\KunngjøringAvOffentligEttersyn\Attachments\Kunngjøring.pdf" />
-		<None Remove="Samples\KunngjøringAvOffentligEttersyn\Attachments\Planbeskrivelse.pdf" />
-		<None Remove="Samples\KunngjøringAvOffentligEttersyn\Attachments\Planbestemmelse.pdf" />
-		<None Remove="Samples\KunngjøringAvOffentligEttersyn\Attachments\Plankart.pdf" />
-		<None Remove="Samples\KunngjøringAvOffentligEttersyn\payload.json" />
-		<None Remove="Samples\KunngjøringAvOffentligEttersyn\reguleringsplan_brev_hoering_offentlig_ettersyn_bokm_mal.doc" />
-		<None Remove="Samples\KunngjøringAvPlanvedtak\Attachments\reguleringsplan_brev_melding_endelig_vedtak_med_informasjon_klagerett_bokm_mal.doc" />
-		<None Remove="Samples\KunngjøringAvPlanvedtak\payload.json" />
-		<None Remove="Samples\KunngjøringOgVarslingAvPlanoppstart\Attachments\reguleringsplan_brev_melding_endelig_vedtak_med_informasjon_klagerett_bokm_mal.doc" />
-		<None Remove="Samples\KunngjøringOgVarslingAvPlanoppstart\Attachments\Varsel.pdf" />
-		<None Remove="Samples\KunngjøringOgVarslingAvPlanoppstart\payload.json" />
+		<None Remove="Samples\KunngjoeringAvOffentligEttersyn\Attachments\Kunngjøring.pdf" />
+		<None Remove="Samples\KunngjoeringAvOffentligEttersyn\Attachments\Planbeskrivelse.pdf" />
+		<None Remove="Samples\KunngjoeringAvOffentligEttersyn\Attachments\Planbestemmelse.pdf" />
+		<None Remove="Samples\KunngjoeringAvOffentligEttersyn\Attachments\Plankart.pdf" />
+		<None Remove="Samples\KunngjoeringAvOffentligEttersyn\payload.json" />
+		<None Remove="Samples\KunngjoeringAvOffentligEttersyn\reguleringsplan_brev_hoering_offentlig_ettersyn_bokm_mal.doc" />
+		<None Remove="Samples\KunngjoeringAvPlanvedtak\Attachments\reguleringsplan_brev_melding_endelig_vedtak_med_informasjon_klagerett_bokm_mal.doc" />
+		<None Remove="Samples\KunngjoeringAvPlanvedtak\payload.json" />
+		<None Remove="Samples\KunngjoeringOgVarslingAvPlanoppstart\Attachments\reguleringsplan_brev_melding_endelig_vedtak_med_informasjon_klagerett_bokm_mal.doc" />
+		<None Remove="Samples\KunngjoeringOgVarslingAvPlanoppstart\Attachments\Varsel.pdf" />
+		<None Remove="Samples\KunngjoeringOgVarslingAvPlanoppstart\payload.json" />
 		<None Remove="Samples\MottattInnsigelse\Attachments\Innsigelse.pdf" />
 		<None Remove="Samples\MottattInnsigelse\payload.json" />
 		<None Remove="Samples\MottattKlage\Attachments\Klage.pdf" />
@@ -248,57 +248,57 @@
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
 		</EmbeddedResource>
-		<EmbeddedResource Include="Samples\KunngjøringAvOffentligEttersyn\Attachments\Kunngjøring.pdf">
+		<EmbeddedResource Include="Samples\KunngjoeringAvOffentligEttersyn\Attachments\Kunngjøring.pdf">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
 		</EmbeddedResource>
-		<EmbeddedResource Include="Samples\KunngjøringAvOffentligEttersyn\Attachments\Planbeskrivelse.pdf">
+		<EmbeddedResource Include="Samples\KunngjoeringAvOffentligEttersyn\Attachments\Planbeskrivelse.pdf">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
 		</EmbeddedResource>
-		<EmbeddedResource Include="Samples\KunngjøringAvOffentligEttersyn\Attachments\Planbestemmelse.pdf">
+		<EmbeddedResource Include="Samples\KunngjoeringAvOffentligEttersyn\Attachments\Planbestemmelse.pdf">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
 		</EmbeddedResource>
-		<EmbeddedResource Include="Samples\KunngjøringAvOffentligEttersyn\Attachments\Plankart.pdf">
+		<EmbeddedResource Include="Samples\KunngjoeringAvOffentligEttersyn\Attachments\Plankart.pdf">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
 		</EmbeddedResource>
-		<EmbeddedResource Include="Samples\KunngjøringAvOffentligEttersyn\payload.json">
+		<EmbeddedResource Include="Samples\KunngjoeringAvOffentligEttersyn\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
 		</EmbeddedResource>
-		<EmbeddedResource Include="Samples\KunngjøringAvOffentligEttersyn\Attachments\reguleringsplan_brev_hoering_offentlig_ettersyn_bokm_mal.doc">
+		<EmbeddedResource Include="Samples\KunngjoeringAvOffentligEttersyn\Attachments\reguleringsplan_brev_hoering_offentlig_ettersyn_bokm_mal.doc">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
 		</EmbeddedResource>
-		<EmbeddedResource Include="Samples\KunngjøringAvPlanvedtak\Attachments\reguleringsplan_brev_melding_endelig_vedtak_med_informasjon_klagerett_bokm_mal.doc">
+		<EmbeddedResource Include="Samples\KunngjoeringAvPlanvedtak\Attachments\reguleringsplan_brev_melding_endelig_vedtak_med_informasjon_klagerett_bokm_mal.doc">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
 			<Pack>true</Pack>
 		</EmbeddedResource>
-		<EmbeddedResource Include="Samples\KunngjøringAvPlanvedtak\payload.json">
+		<EmbeddedResource Include="Samples\KunngjoeringAvPlanvedtak\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
 		</EmbeddedResource>
-		<EmbeddedResource Include="Samples\KunngjøringOgVarslingAvPlanoppstart\Attachments\reguleringsplan_brev_melding_endelig_vedtak_med_informasjon_klagerett_bokm_mal.doc">
+		<EmbeddedResource Include="Samples\KunngjoeringOgVarslingAvPlanoppstart\Attachments\reguleringsplan_brev_melding_endelig_vedtak_med_informasjon_klagerett_bokm_mal.doc">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
 			<Pack>true</Pack>
 		</EmbeddedResource>
-		<EmbeddedResource Include="Samples\KunngjøringOgVarslingAvPlanoppstart\Attachments\Varsel.pdf">
+		<EmbeddedResource Include="Samples\KunngjoeringOgVarslingAvPlanoppstart\Attachments\Varsel.pdf">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
 			<Pack>true</Pack>
 		</EmbeddedResource>
-		<EmbeddedResource Include="Samples\KunngjøringOgVarslingAvPlanoppstart\payload.json">
+		<EmbeddedResource Include="Samples\KunngjoeringOgVarslingAvPlanoppstart\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>

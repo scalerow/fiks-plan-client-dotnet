@@ -198,7 +198,7 @@
                 "ubehandletInnsigelse"
             ]
         },
-        "planbehandling": {
+        "planbehandlinger": {
             "type": "array",
             "items": {
                 "$ref": "#/definitions/Planbehandling"

@@ -193,12 +193,12 @@
                 "innvilgetDispensasjon",
                 "varigDispensasjon"
             ]
-        }
-    },
-    "plandokument": {
-        "type": "array",
-        "items": {
-            "$ref": "#/definitions/Plandokument"
+        },
+        "plandokument": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/Plandokument"
+            }
         }
     },
     "required": [

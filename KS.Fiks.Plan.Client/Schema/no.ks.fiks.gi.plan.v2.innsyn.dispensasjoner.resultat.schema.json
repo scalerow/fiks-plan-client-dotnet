@@ -154,7 +154,7 @@
     },
     "type": "object",
     "properties": {
-        "dispensasjon": {
+        "dispensasjoner": {
             "type": "array",
             "items": {
                 "$ref": "#/definitions/dispensasjon"

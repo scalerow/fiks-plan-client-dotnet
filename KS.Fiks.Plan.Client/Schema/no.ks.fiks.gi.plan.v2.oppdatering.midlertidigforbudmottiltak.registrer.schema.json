@@ -32,12 +32,12 @@
                                 }
                             }
                         }
-                    }
+                    },
+                    "required": [
+                        "type",
+                        "coordinates"
+                    ]
                 },
-                "required": [
-                    "type",
-                    "coordinates"
-                ],
                 "saksnummer": {
                     "type": "object",
                     "properties": {

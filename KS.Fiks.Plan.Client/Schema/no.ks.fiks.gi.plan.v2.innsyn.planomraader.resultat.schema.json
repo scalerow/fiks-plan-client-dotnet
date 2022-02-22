@@ -47,7 +47,12 @@
                             "referansehoeyde": {
                                 "type": "object",
                                 "properties": {
-
+                                    "hoeydeverdi": {
+                                        "type": "string"
+                                    },
+                                    "hoeydereferansesystem": {
+                                        "type": "string"
+                                    }
                                 }
                             }
                         }
