@@ -72,13 +72,16 @@
                 "omraadenavn": {
                     "type": "string"
                 }
-            }
+            },
+            "required": [
+                "omraade",
+                "avgjoerelsedato",
+                "pblTiltakForbudtype",
+                "gyldigTilDato"
+            ]
         }
     },
     "required": [
-        "omraade",
-        "avgjoerelsedato",
-        "pblTiltakForbudtype",
-        "gyldigTilDato"
+        "forbudOmraade"
     ]
 }

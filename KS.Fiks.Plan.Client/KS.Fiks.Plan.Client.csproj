@@ -113,6 +113,7 @@
 		<None Remove="Schema\no.ks.fiks.gi.plan.v2.innsyn.gjeldendeplanbestemmelser.resultat.schema.json" />
 		<None Remove="Schema\no.ks.fiks.gi.plan.v2.innsyn.kodeliste.hent.schema.json" />
 		<None Remove="Schema\no.ks.fiks.gi.plan.v2.innsyn.kodeliste.resultat.schema.json" />
+		<None Remove="Schema\no.ks.fiks.gi.plan.v2.innsyn.midlertidigforbud.resultat.schema.json" />
 		<None Remove="Schema\no.ks.fiks.gi.plan.v2.innsyn.midlertidigforbud.sjekk.schema.json" />
 		<None Remove="Schema\no.ks.fiks.gi.plan.v2.innsyn.planbehandlinger.finn.schema.json" />
 		<None Remove="Schema\no.ks.fiks.gi.plan.v2.innsyn.planbehandlinger.resultat.schema.json" />
@@ -525,6 +526,11 @@
 		</EmbeddedResource>
 		<EmbeddedResource Include="Samples\TildelePlanident\payload.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+			<Pack>true</Pack>
+			<PackageCopyToOutput>true</PackageCopyToOutput>
+		</EmbeddedResource>
+		<EmbeddedResource Include="Schema\no.ks.fiks.gi.plan.v2.innsyn.midlertidigforbud.resultat.schema.json">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackageCopyToOutput>true</PackageCopyToOutput>
 		</EmbeddedResource>
