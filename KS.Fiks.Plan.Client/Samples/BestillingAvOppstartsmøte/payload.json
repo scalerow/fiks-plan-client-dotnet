@@ -28,7 +28,8 @@
                 "kodeverdi": "KORR",
                 "kodebeskrivelse": "Korrespondanse"
             },
-            "referanseDokumentfil": "Planinitiativ.pdf"
+            "referanseDokumentfil": "Planinitiativ.pdf",
+            "arkivnavn": "Planinitiativ"
         },
         {
             "tittel": "Planområde",
@@ -36,7 +37,8 @@
                 "kodeverdi": "KART",
                 "kodebeskrivelse": "Kart"
             },
-            "referanseDokumentfil": "Planomraade.pdf"
+            "referanseDokumentfil": "Planomraade.pdf",
+            "arkivnavn": "Planområde"
         }
     ]
 }

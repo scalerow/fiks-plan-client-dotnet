@@ -22,7 +22,8 @@
                 "kodeverdi": "KLAGE",
                 "kodebeskrivelse": "klage"
             },
-            "referanseDokumentfil": "Klage.pdf"
+            "referanseDokumentfil": "Klage.pdf",
+            "arkivnavn": "Klage"
         },
         {
             "tittel": "Vedtak",
@@ -30,7 +31,8 @@
                 "kodeverdi": "VEDTAK",
                 "kodebeskrivelse": "Vedtak"
             },
-            "referanseDokumentfil": "Vedtak.pdf"
+            "referanseDokumentfil": "Vedtak.pdf",
+            "arkivnavn": "Vedtak"
         }
     ]
 }

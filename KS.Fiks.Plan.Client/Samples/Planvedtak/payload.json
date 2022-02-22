@@ -28,7 +28,8 @@
                 "kodeverdi": "VEDTAK",
                 "kodebeskrivelse": "Vedtak"
             },
-            "referanseDokumentfil": "Vedtak.pdf"
+            "referanseDokumentfil": "Vedtak.pdf",
+            "arkivnavn": "Vedtak"
         },
         {
             "tittel": "Planbeskrivelse",
@@ -36,7 +37,8 @@
                 "kodeverdi": "PLANBESKR",
                 "kodebeskrivelse": "Planbeskrivelse"
             },
-            "referanseDokumentfil": "Planbeskrivelse.pdf"
+            "referanseDokumentfil": "Planbeskrivelse.pdf",
+            "arkivnavn": "Planbeskrivelse"
         },
         {
             "tittel": "PlanKart",
@@ -44,7 +46,8 @@
                 "kodeverdi": "PLANKART",
                 "kodebeskrivelse": "Arealplankart"
             },
-            "referanseDokumentfil": "PlanKart.pdf"
+            "referanseDokumentfil": "PlanKart.pdf",
+            "arkivnavn": "Plankart"
         },
         {
             "tittel": "Planbestemmelse",
@@ -52,7 +55,8 @@
                 "kodeverdi": "PLANBEST",
                 "kodebeskrivelse": "Bestemmelser"
             },
-            "referanseDokumentfil": "Planbestemmelse.pdf"
+            "referanseDokumentfil": "Planbestemmelse.pdf",
+            "arkivnavn": "Planbestemmelse"
         }
     ]
 }

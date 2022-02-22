@@ -30,8 +30,12 @@
     "plandokument": [
         {
             "tittel": "Vedtak",
-            "dokumenttype": "pdf",
-            "referanseDokumentfil": "vedtak.pdf"
+            "dokumenttype": {
+                "kodebeskrivelse": "Vedtak",
+                "kodeverdi": "VEDTAK"
+            },
+            "referanseDokumentfil": "vedtak.pdf",
+            "arkivnavn": "Vedtak"
         }
     ]
 }

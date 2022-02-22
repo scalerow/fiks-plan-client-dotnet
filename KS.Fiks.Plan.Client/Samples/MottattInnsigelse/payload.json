@@ -24,7 +24,8 @@
                 "kodeverdi": "INNSIGELSE",
                 "kodebeskrivelse": "Innsigelse"
             },
-            "referanseDokumentfil": "Innsigelse.pdf"
+            "referanseDokumentfil": "Innsigelse.pdf",
+            "arkivnavn": "Innsigelse"
         }
     ]
 }

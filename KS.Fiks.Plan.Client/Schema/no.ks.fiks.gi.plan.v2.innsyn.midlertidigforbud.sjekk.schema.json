@@ -27,12 +27,12 @@
                         }
                     }
                 }
-            }
-        },
-        "required": [
-            "type",
-            "coordinates"
-        ]
+            },
+            "required": [
+                "type",
+                "coordinates"
+            ]
+        }
     },
     "required": [
         "omraade"

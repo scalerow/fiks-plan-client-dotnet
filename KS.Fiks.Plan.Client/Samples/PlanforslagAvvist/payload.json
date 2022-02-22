@@ -28,7 +28,8 @@
                 "kodeverdi": "VEDTAK",
                 "kodebeskrivelse": "Vedtak"
             },
-            "referanseDokumentfil": "Vedtak.pdf"
+            "referanseDokumentfil": "Vedtak.pdf",
+            "arkivnavn": "Vedtak"
         }
     ]
 }

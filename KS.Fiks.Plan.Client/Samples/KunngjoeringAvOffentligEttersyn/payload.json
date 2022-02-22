@@ -33,7 +33,8 @@
                 "kodeverdi": "KUNNGJ",
                 "kodebeskrivelse": "Kunngjøring"
             },
-            "referanseDokumentfil": "Kunngjøring.pdf"
+            "referanseDokumentfil": "Kunngjøring.pdf",
+            "arkivnavn": "kunngjøring reguleringsplan"
         },
         {
             "tittel": "Planbeskrivelse",
@@ -41,7 +42,8 @@
                 "kodeverdi": "PLANBESKR",
                 "kodebeskrivelse": "Planbeskrivelse"
             },
-            "referanseDokumentfil": "Planbeskrivelse.pdf"
+            "referanseDokumentfil": "Planbeskrivelse.pdf",
+            "arkivnavn": "Planbeskrivelse reguleringsplan"
         },
         {
             "tittel": "PlanKart",
@@ -49,7 +51,8 @@
                 "kodeverdi": "PLANKART",
                 "kodebeskrivelse": "Arealplankart"
             },
-            "referanseDokumentfil": "PlanKart.pdf"
+            "referanseDokumentfil": "PlanKart.pdf",
+            "arkivnavn": "Plankart reguleringsplan"
         },
         {
             "tittel": "Planbestemmelse",
@@ -57,7 +60,8 @@
                 "kodeverdi": "PLANBEST",
                 "kodebeskrivelse": "Bestemmelser"
             },
-            "referanseDokumentfil": "Planbestemmelse.pdf"
+            "referanseDokumentfil": "Planbestemmelse.pdf",
+            "arkivnavn": "Planbestemmelse reguleringsplan"
         }
     ]
 }

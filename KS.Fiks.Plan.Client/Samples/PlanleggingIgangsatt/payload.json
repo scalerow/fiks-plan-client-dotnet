@@ -28,7 +28,8 @@
                 "kodeverdi": "KORR",
                 "kodebeskrivelse": "Korrespondanse"
             },
-            "referanseDokumentfil": "Planinitiativ.pdf"
+            "referanseDokumentfil": "Planinitiativ.pdf",
+            "arkivnavn": "Planinitiativ"
         },
         {
             "tittel": "Planprogram",
@@ -36,7 +37,8 @@
                 "kodeverdi": "PLANPROG",
                 "kodebeskrivelse": "Planprogram"
             },
-            "referanseDokumentfil": "Planprogram.pdf"
+            "referanseDokumentfil": "Planprogram.pdf",
+            "arkivnavn": "Planprogram"
         }
     ]
 }

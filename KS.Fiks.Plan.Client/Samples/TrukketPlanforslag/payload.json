@@ -22,7 +22,8 @@
                 "kodeverdi": "KORR",
                 "kodebeskrivelse": "Korrespondanse"
             },
-            "referanseDokumentfil": "Underlag.pdf"
+            "referanseDokumentfil": "Underlag.pdf",
+            "arkivnavn": "Underlag"
         }
     ]
 }

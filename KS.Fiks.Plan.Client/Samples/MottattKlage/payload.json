@@ -24,7 +24,8 @@
                 "kodeverdi": "KLAGE",
                 "kodebeskrivelse": "Klage"
             },
-            "referanseDokumentfil": "Klage.pdf"
+            "referanseDokumentfil": "Klage.pdf",
+            "arkivnavn": "Klage"
         }
     ]
 }
