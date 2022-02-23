@@ -76,11 +76,14 @@
                     "format": "date"
                 },
                 "pblTiltakForbudtype": {
-                    "kodeverdi": {
-                        "type": "string"
-                    },
-                    "kodebeskrivelse": {
-                        "type": "string"
+                    "type": "object",
+                    "properties": {
+                        "kodeverdi": {
+                            "type": "string"
+                        },
+                        "kodebeskrivelse": {
+                            "type": "string"
+                        }
                     }
                 },
                 "gyldigTilDato": {

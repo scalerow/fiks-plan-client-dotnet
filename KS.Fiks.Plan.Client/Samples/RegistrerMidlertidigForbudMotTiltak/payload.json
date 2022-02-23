@@ -42,7 +42,7 @@
             "saksaar": 2020,
             "sakssekvensnummer": 12345
         },
-        "avgjoerelsesdato": "2020-01-01",
+        "avgjoerelsedato": "2020-01-01",
         "pblTiltakForbudtype": {
             "kodeverdi": "2",
             "kodebeskrivelse": "midlertidigForbudMotTiltak"
